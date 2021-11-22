@@ -1,0 +1,199 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .titreMikeVtc {
+    font-family: "licenz plates";
+  }
+
+  .sloganMikeVtc,
+  .infosHeaderMikeVtc {
+    font-family: 'consolas';
+  }
+
+  .headerMikeVtc,
+  .blocInfosHeaderMikeVtc {
+    display: flex;
+  }
+ 
+  .headerMikeVtc {
+    grid-area: m1;
+   height: 100vh;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #f4f4f4;
+ }
+
+ .titreMikeVtc {
+  font-size: 3em;
+  color: #2D3E80;
+  text-transform: uppercase;
+}
+
+ .blocInfosHeaderMikeVtc {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+ }
+
+ .sloganMikeVtc {
+   text-align: center;
+   width: 90%;
+   font-size: 1.5em;
+  color: #2D3E80;
+  }
+
+  .infosHeaderMikeVtc {
+    color: #2D3E80;
+    font-size: 1em;
+  }
+
+  .btnHeaderMikeVtc {
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    background-color: #2D3E80;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5em;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .titreMikeVtc {
+    font-family: "licenz plates";
+  }
+
+  .sloganMikeVtc,
+  .infosHeaderMikeVtc {
+    font-family: 'consolas';
+  }
+
+  .headerMikeVtc,
+  .blocInfosHeaderMikeVtc {
+    display: flex;
+  }
+ 
+  .headerMikeVtc {
+    grid-area: t1;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images//headerBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titreMikeVtc {
+    font-size: 4em;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .blocInfosHeaderMikeVtc {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+  }
+
+  .sloganMikeVtc {
+    text-align: center;
+    width: 90%;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .infosHeaderMikeVtc {
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+
+  .btnHeaderMikeVtc {
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    background-color: #2D3E80;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5em;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .titreMikeVtc {
+    font-family: "licenz plates";
+  }
+
+  .sloganMikeVtc,
+  .infosHeaderMikeVtc {
+    font-family: 'consolas';
+  }
+
+  .headerMikeVtc,
+  .blocInfosHeaderMikeVtc {
+    display: flex;
+  }
+ 
+  .headerMikeVtc {
+    grid-area: d1;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images//headerBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titreMikeVtc {
+    font-size: 6em;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .blocInfosHeaderMikeVtc {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+  }
+
+  .sloganMikeVtc {
+    text-align: center;
+    width: 90%;
+    font-size: 2em;
+    color: #ffffff;
+  }
+
+  .infosHeaderMikeVtc {
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  .btnHeaderMikeVtc {
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 30px;
+    width: 40%;
+    background-color: #2D3E80;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+}

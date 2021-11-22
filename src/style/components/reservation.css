@@ -1,0 +1,351 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .sectionReservationMikeVtc,
+  .formReservationMikeVtc,
+  .blocInputReservationMikeVtc,
+  .blocFormReservationMikeVtc,
+  .btnReservationMikeVtc {
+    display: flex;
+  }
+
+  .sectionReservationMikeVtc {
+    grid-area: m6;
+    background-color: #2D3E80;
+    justify-content: center;
+  }
+
+  .formReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .titreReservationMikeVtc {
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .paragrapheReservationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .blocFormReservationMikeVtc,
+  .sousBlocFormReservationMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .blocFormReservationMikeVtc:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+
+  .blocInputReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .labelReservationMikeVtc {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 0.8em;
+  }
+
+  .inputReservationMikeVtc {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    color: #2d3e8096;
+    text-align: center;
+    font-family: "Montserrat";
+    outline: none;
+  }
+
+  .selectReservationMikeVtc {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    text-align: center;
+    color: #2d3e8096;
+  }
+
+  .blocMapReservationMikeVtc {
+    height: 250px;
+    width: 100%;
+  }
+
+  .mapReservationMikeVtc {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btnReservationMikeVtc {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    color: #2D3E80;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 20px 0px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionReservationMikeVtc,
+  .formReservationMikeVtc,
+  .blocInputReservationMikeVtc,
+  .blocFormReservationMikeVtc,
+  .btnReservationMikeVtc,
+  .blocMapReservationMikeVtc {
+    display: flex;
+  }
+
+  .sectionReservationMikeVtc {
+    grid-area: t6;
+    background-color: #2D3E80;
+    justify-content: center;
+  }
+
+  .formReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .titreReservationMikeVtc {
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .paragrapheReservationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .blocFormReservationMikeVtc,
+  .sousBlocFormReservationMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .blocFormReservationMikeVtc:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+
+  .blocInputReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .labelReservationMikeVtc {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 0.8em;
+  }
+
+  .inputReservationMikeVtc {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    color: #2d3e8096;
+    text-align: center;
+    font-family: "Montserrat";
+    outline: none;
+  }
+
+  .selectReservationMikeVtc {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    text-align: center;
+    color: #2d3e8096;
+  }
+
+  .blocMapReservationMikeVtc {
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mapReservationMikeVtc {
+    width: 80%;
+    height: 100%;
+  }
+
+  .btnReservationMikeVtc {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    color: #2D3E80;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 20px 0px;
+  }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  .sectionReservationMikeVtc,
+  .formReservationMikeVtc,
+  .blocInputReservationMikeVtc,
+  .blocFormReservationMikeVtc,
+  .btnReservationMikeVtc,
+  .blocMapReservationMikeVtc,
+  .sousBlocFormReservationMikeVtc {
+    display: flex;
+  }
+
+  .sectionReservationMikeVtc {
+    grid-area: d6;
+    background-color: #2D3E80;
+    justify-content: center;
+  }
+
+  .formReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .titreReservationMikeVtc {
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .paragrapheReservationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 1em;
+    width: 90%;
+  }
+
+  .blocFormReservationMikeVtc,
+  .sousBlocFormReservationMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+
+  .blocFormReservationMikeVtc:nth-of-type(2) {
+    flex-direction: row;
+    width: 50%;
+  }
+
+  .blocFormReservationMikeVtc:nth-of-type(2) .inputReservationMikeVtc {
+    width: 70%;
+  }
+
+  .blocInputReservationMikeVtc {
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .labelReservationMikeVtc {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 0.8em;
+  }
+
+  .inputReservationMikeVtc {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    color: #2d3e8096;
+    text-align: center;
+    font-family: "Montserrat";
+    outline: none;
+  }
+
+  .selectReservationMikeVtc {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffffe1;
+    text-align: center;
+    color: #2d3e8096;
+  }
+
+  .blocMapReservationMikeVtc {
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .mapReservationMikeVtc {
+    width: 70%;
+    height: 100%;
+  }
+
+  .btnReservationMikeVtc {
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    color: #2D3E80;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+
+}

@@ -1,0 +1,287 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .asideMikeVtc,
+  .blocBurger,
+  .blocNavigationMikeVtc,
+  .lienNavMikeVtc {
+    display: flex;
+  }
+  
+  .asideMikeVtc {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2D3E80;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .asideWhite {
+    background-color: #ffffff;
+  }
+
+  .logoMikeVtc {
+    z-index: 3;
+    width: 20vw
+  }
+
+  .blocReseauMikeVtc {
+    display: none;
+  }
+
+  .navigationMikeVtc {
+    z-index: 3;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: #2D3E80;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blocNavigationMikeVtc {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .showNav {
+    animation: openNav .3s;
+    opacity: 1;
+  }
+
+  .navFixed {
+    animation: fixedNav .3s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .lienNavMikeVtc {
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    list-style: none;
+    font-size: 1em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .lienNavMikeVtc a {
+    color: white;
+  }
+
+  .blocBurger {
+    z-index: 2;
+    transform: translateX(-25px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+@media screen  and (min-width: 768px) and (max-width:1024px) {
+  .asideMikeVtc,
+  .blocBurger,
+  .blocNavigationMikeVtc,
+  .lienNavMikeVtc {
+    display: flex;
+  }
+
+  .asideMikeVtc {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #2D3E80;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .asideWhite {
+    background-color: #ffffff;
+  }
+
+  .logoMikeVtc {
+    width: 12vw;
+  }
+
+  .blocReseauMikeVtc {
+    display: none;
+  }
+
+  .navigationMikeVtc {
+    z-index: 3;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: #2D3E80;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blocNavigationMikeVtc {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .showNav {
+    animation: openNav .3s;
+    opacity: 1;
+  }
+
+  .navFixed {
+    animation: fixedNav .3s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .lienNavMikeVtc {
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    list-style: none;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .lienNavMikeVtc a {
+    color: white;
+  }
+
+  .blocBurger {
+    z-index: 2;
+    transform: translateX(-25px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen  and (min-width:1024px) {
+  .asideMikeVtc,
+  .blocBurger,
+  .navigationMikeVtc,
+  .blocNavigationMikeVtc,
+  .blocReseauMikeVtc {
+    display: flex;
+  }
+
+  .asideMikeVtc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2D3E80;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .logoMikeVtc {
+    width: 7vw;
+  }
+
+  .navigationMikeVtc {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .blocNavigationMikeVtc {
+    font-size: 1.5em;
+    list-style: none;
+  }
+
+  .lienNavMikeVtc {
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .lienNavMikeVtc a {
+    color: white;
+  }
+
+  .liensActive {
+    text-decoration: white;
+  }
+
+  .navFixed {
+    animation: fixedNav .3s forwards;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+
+  .lienNavMikeVtc:hover a {
+    text-decoration: underline;
+  }
+
+  .blocReseauMikeVtc {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .iconeReseauMikeVtc {
+    width: 50%;
+  }
+
+  .blocBurger {
+    display: none;
+    transform: translateX(-25px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+
+@keyframes openNav {
+  from {
+    opacity: 0;;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes fixedNav {
+  from {
+    transform: translateY(-100px);
+  } to {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,103 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .cardInformationMikeVtc {
+    display: flex;
+  }
+  
+  .cardInformationMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0px;
+  }
+  
+  .iconeInformationMikeVtc {
+    width: 15vw;
+    margin: 20px 0px;
+  }
+  
+  .titreCardInformationMikeVtc,
+  .textCardInformationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    padding: 10px 0px;
+  }
+
+  .titreCardInformationMikeVtc {
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+  
+  .textCardInformationMikeVtc {
+    text-align: center;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cardInformationMikeVtc {
+    display: flex;
+  }
+  
+  .cardInformationMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .iconeInformationMikeVtc {
+    width: 15vw;
+    margin: 20px 0px;
+  }
+  
+  .titreCardInformationMikeVtc,
+  .textCardInformationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    padding: 10px 0px;
+  }
+
+  .titreCardInformationMikeVtc {
+    text-decoration: underline;
+  }
+  
+  .textCardInformationMikeVtc {
+    text-align: center;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cardInformationMikeVtc {
+    display: flex;
+  }
+
+  .cardInformationMikeVtc {
+    vertical-align: top;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    justify-content: space-evenly;
+    height: 250px;
+  }
+
+  .iconeInformationMikeVtc {
+    width: 3vw;
+  }
+
+  .titreCardInformationMikeVtc,
+  .textCardInformationMikeVtc {
+    color: white;
+    font-family: "Montserrat";
+    padding: 10px 0px;
+  }
+
+  .titreCardInformationMikeVtc {
+    text-decoration: underline;
+  }
+
+  .textCardInformationMikeVtc {
+    text-align: center;
+    width: 50%;
+  }
+}
+

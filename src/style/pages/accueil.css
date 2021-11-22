@@ -1,0 +1,55 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .accueilMikeVtc {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh repeat(6, 1fr) 50vh;
+    grid-template-areas: 
+    "m1"
+    "m2"
+    "m3"
+    "m4"
+    "m5"
+    "m6"
+    "m7"
+    "m8"
+    ;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  .accueilMikeVtc {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh repeat(6, 1fr) 50vh;
+    grid-template-areas: 
+    "t1"
+    "t2"
+    "t3"
+    "t4"
+    "t5"
+    "t6"
+    "t7"
+    "t8"
+    ;
+  }
+}
+
+@media screen and  (min-width: 1024px) {
+  .accueilMikeVtc {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 100vh repeat(6, auto) 50vh;
+    grid-template-areas: 
+    "d1 d1 d1 d1"
+    "d2 d2 d2 d2"
+    "d3 d3 d3 d3"
+    "d4 d4 d4 d4"
+    "d5 d5 d5 d5"
+    "d6 d6 d6 d6"
+    "d7 d7 d7 d7"
+    "d8 d8 d8 d8"
+    ;
+  }
+}

@@ -1,0 +1,121 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .sectionInformationMikeVtc,
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc {
+    display: flex;
+
+  }
+  
+  .sectionInformationMikeVtc {
+    grid-area: m3;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D3E80;
+    width: 100%;
+  }
+
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+  }
+
+
+  .titreInformationEngagementMikeVtc,
+  .titreInformationSecuriterMikeVtc {
+    margin: 20px 0px;
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sectionInformationMikeVtc,
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc,
+  .blocCardEngagementInfosMikeVtc,
+  .blocCardSecuriterInfosMikeVtc {
+    display: flex;
+
+  }
+
+  .blocCardEngagementInfosMikeVtc,
+  .blocCardSecuriterInfosMikeVtc {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sectionInformationMikeVtc {
+    grid-area: t3;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D3E80;
+    width: 100%;
+  }
+
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .titreInformationEngagementMikeVtc,
+  .titreInformationSecuriterMikeVtc {
+    margin: 20px 0px;
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .sectionInformationMikeVtc,
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc,
+  .blocCardEngagementInfosMikeVtc,
+  .blocCardSecuriterInfosMikeVtc {
+    display: flex;
+
+  }
+
+  .blocCardEngagementInfosMikeVtc,
+  .blocCardSecuriterInfosMikeVtc {
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+  }
+  
+  .sectionInformationMikeVtc {
+    grid-area: d3;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2D3E80;
+    width: 100%;
+  }
+
+  .blocEngagementMikeVtc,
+  .blocSecuriterMikeVtc {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .titreInformationEngagementMikeVtc,
+  .titreInformationSecuriterMikeVtc {
+    margin: 20px 0px;
+    color: white;
+    font-family: "Licenz plate";
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+}

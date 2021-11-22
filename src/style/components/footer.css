@@ -1,0 +1,32 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footerMikeVtc {
+    display: flex;
+  }
+
+  .footerMikeVtc {
+    grid-area: m8;
+    background-color: #2D3E80;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footerMikeVtc {
+    display: flex;
+  }
+
+  .footerMikeVtc {
+    grid-area: t8;
+    background-color: #2D3E80;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footerMikeVtc {
+    display: flex;
+  }
+
+  .footerMikeVtc {
+    grid-area: d8;
+    background-color: #2D3E80;
+  }
+}
