@@ -1,17 +1,17 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .sectionServicesMikeVtc,
-  .blocServicesMikeVtc,
-  .blocContentServiceMikeVtc {
+  .section-services,
+  .sous-container-services,
+  .container-content-services {
     display: flex;
   }
 
-.sectionServicesMikeVtc {
+.section-services {
   grid-area: m5;
   flex-direction: column;
   align-items: center;
 }
 
-.titreServicesMikeVtc {
+.titre-services {
   margin: 30px 0px;
   font-family: "Licenz plate";
   color: #2D3E80;
@@ -20,7 +20,7 @@
   letter-spacing: 1vh;
 }
 
-.blocServicesMikeVtc {
+.sous-container-services {
   flex-direction: column;
   width: 100%;
 }
@@ -29,19 +29,19 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .sectionServicesMikeVtc,
-  .blocServicesMikeVtc,
-  .blocContentServiceMikeVtc {
+  .section-services,
+  .sous-container-services,
+  .container-content-services {
     display: flex;
   }
 
-.sectionServicesMikeVtc {
+.section-services {
   grid-area: t5;
   flex-direction: column;
   align-items: center;
 }
 
-.titreServicesMikeVtc {
+.titre-services {
   margin: 30px 0px;
   font-family: "Licenz plate";
   color: #2D3E80;
@@ -50,7 +50,7 @@
   letter-spacing: 1vh;
 }
 
-.blocServicesMikeVtc {
+.sous-container-services {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
@@ -60,19 +60,19 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .sectionServicesMikeVtc,
-  .blocServicesMikeVtc,
-  .blocContentServiceMikeVtc {
+  .section-services,
+  .sous-container-services,
+  .container-content-services {
     display: flex;
   }
 
-.sectionServicesMikeVtc {
+.section-services {
   grid-area: d5;
   flex-direction: column;
   align-items: center;
 }
 
-.titreServicesMikeVtc {
+.titre-services {
   margin: 30px 0px;
   font-family: "Licenz plate";
   color: #2D3E80;
@@ -81,7 +81,7 @@
   letter-spacing: 1vh;
 }
 
-.blocServicesMikeVtc {
+.sous-container-services {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;

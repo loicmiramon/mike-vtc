@@ -1,13 +1,13 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .sectionPresentationVehiculeMikeVtc,
-  .blocModeleVehiculeMikeVtc,
-  .listDetailVehiculeMikeVtc,
-  .itemListDetailVehiculeMikeVtc,
-  .titreListItemDetailVehiculeMikeVtc  {
+  .section-vehicule,
+  .container-modele-vehicule,
+  .list-detail-vehicule,
+  .item-detail-vehicule,
+  .titre-item-list-detail-vehicule  {
     display: flex;
   }
 
-  .sectionPresentationVehiculeMikeVtc {
+  .section-vehicule {
     position: relative;
     grid-area: m4;
     background-image: url('../../assets/images/car.jpg');
@@ -20,7 +20,7 @@
     height: 600px;
   }
 
-  .filterVehicule {
+  .filter-vehicule {
     position: absolute;
     left: 0;
     top: 0;
@@ -29,18 +29,18 @@
     background-color: rgba(0, 0, 0, 0.472);
   }
 
-  .blocModeleVehiculeMikeVtc {
+  .container-modele-vehicule {
     z-index: 2;
     flex-direction: column;
     align-items: center;
   }
 
-  .blocDetailVehiculeMikeVtc {
+  .container-detail-vehicule {
     width: 100%;
     z-index: 2;
   }
 
-  .titreVehiculeMikeVtc {
+  .titre-vehicule {
     color: #2D3E80;
     text-transform: uppercase;
     font-family: "Licenz plate";
@@ -48,20 +48,20 @@
     letter-spacing: 5vw;
   }
 
-  .sousTitreVehiculeMikeVtc {
+  .sous-titre-vehicule {
     color: white;
     font-family: "Montserrat";
     font-size: 1.5em;
   }
 
-  .listDetailVehiculeMikeVtc {
+  .list-detail-vehicule {
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
     padding-left: 20px;
   }
 
-  .itemListDetailVehiculeMikeVtc {
+  .item-detail-vehicule {
     color: white;
     font-size: 2.2em;
     padding: 5px;
@@ -70,7 +70,7 @@
     align-items: center;
   }
 
-  .titreListItemDetailVehiculeMikeVtc {
+  .titre-item-list-detail-vehicule {
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -80,7 +80,7 @@
     background-color: white;
   }
 
-  .paragrapheListItemDetailVehiculeMikeVtc {
+  .paragraphe-item-list-detail-vehicule {
     margin-left: 15px;
     font-size: 0.5em;
     font-family: 'Montserrat';
@@ -91,15 +91,15 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .sectionPresentationVehiculeMikeVtc,
-  .blocModeleVehiculeMikeVtc,
-  .listDetailVehiculeMikeVtc,
-  .itemListDetailVehiculeMikeVtc,
-  .titreListItemDetailVehiculeMikeVtc {
+  .section-vehicule,
+  .container-modele-vehicule,
+  .list-detail-vehicule,
+  .item-detail-vehicule,
+  .titre-item-list-detail-vehicule {
     display: flex;
   }
 
-  .sectionPresentationVehiculeMikeVtc {
+  .section-vehicule {
     position: relative;
     grid-area: t4;
     background-image: url('../../assets/images/car.jpg');
@@ -112,7 +112,7 @@
     height: 700px;
   }
 
-  .filterVehicule {
+  .filter-vehicule {
     position: absolute;
     left: 0;
     top: 0;
@@ -121,18 +121,18 @@
     background-color: rgba(0, 0, 0, 0.472);
   }
 
-  .blocModeleVehiculeMikeVtc {
+  .container-modele-vehicule {
     z-index: 2;
     flex-direction: column;
     align-items: center;
   }
 
-  .blocDetailVehiculeMikeVtc {
+  .container-detail-vehicule {
     width: 100%;
     z-index: 2;
   }
 
-  .titreVehiculeMikeVtc {
+  .titre-vehicule {
     color: #2D3E80;
     text-transform: uppercase;
     font-family: "Licenz plate";
@@ -140,20 +140,20 @@
     letter-spacing: 5vw;
   }
 
-  .sousTitreVehiculeMikeVtc {
+  .sous-titre-vehicule {
     color: white;
     font-family: "Montserrat";
     font-size: 1.5em;
   }
 
-  .listDetailVehiculeMikeVtc {
+  .list-detail-vehicule {
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
     padding-left: 20px;
   }
 
-  .itemListDetailVehiculeMikeVtc {
+  .item-detail-vehicule {
     color: white;
     font-size: 2.2em;
     padding: 5px;
@@ -162,7 +162,7 @@
     align-items: center;
   }
 
-  .titreListItemDetailVehiculeMikeVtc {
+  .titre-item-list-detail-vehicule {
     justify-content: center;
     align-items: center;
     width: 45px;
@@ -172,7 +172,7 @@
     background-color: white;
   }
 
-  .paragrapheListItemDetailVehiculeMikeVtc {
+  .paragraphe-item-list-detail-vehicule {
     margin-left: 20px;
     font-size: 0.6em;
     font-family: 'Montserrat';
@@ -183,15 +183,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .sectionPresentationVehiculeMikeVtc,
-  .blocModeleVehiculeMikeVtc,
-  .listDetailVehiculeMikeVtc,
-  .itemListDetailVehiculeMikeVtc,
-  .titreListItemDetailVehiculeMikeVtc {
+  .section-vehicule,
+  .container-modele-vehicule,
+  .list-detail-vehicule,
+  .item-detail-vehicule,
+  .titre-item-list-detail-vehicule {
     display: flex;
   }
 
-  .sectionPresentationVehiculeMikeVtc {
+  .section-vehicule {
     position: relative;
     grid-area: d4;
     background-image: url('../../assets/images/car.jpg');
@@ -204,7 +204,7 @@
     height: 1000px;
   }
 
-  .filterVehicule {
+  .filter-vehicule {
     position: absolute;
     left: 0;
     top: 0;
@@ -213,18 +213,18 @@
     background-color: rgba(0, 0, 0, 0.472);
   }
 
-  .blocModeleVehiculeMikeVtc {
+  .container-modele-vehicule {
     z-index: 2;
     flex-direction: column;
     align-items: center;
   }
 
-  .blocDetailVehiculeMikeVtc {
+  .container-detail-vehicule {
     width: 100%;
     z-index: 2;
   }
 
-  .titreVehiculeMikeVtc {
+  .titre-vehicule {
     color: #2D3E80;
     text-transform: uppercase;
     font-family: "Licenz plate";
@@ -232,20 +232,20 @@
     letter-spacing: 5vw;
   }
 
-  .sousTitreVehiculeMikeVtc {
+  .sous-titre-vehicule {
     color: white;
     font-family: "Montserrat";
     font-size: 1.5em;
   }
 
-  .listDetailVehiculeMikeVtc {
+  .list-detail-vehicule {
     flex-direction: column;
     align-items: flex-start;
     list-style: none;
     padding-left: 20px;
   }
 
-  .itemListDetailVehiculeMikeVtc {
+  .item-detail-vehicule {
     color: white;
     font-size: 2.2em;
     padding: 5px;
@@ -255,7 +255,7 @@
   }
 
 
-  .titreListItemDetailVehiculeMikeVtc {
+  .titre-item-list-detail-vehicule {
     justify-content: center;
     align-items: center;
     width: 70px;
@@ -266,7 +266,7 @@
     z-index: 2;
   }
 
-  .paragrapheListItemDetailVehiculeMikeVtc {
+  .paragraphe-item-list-detail-vehicule {
     margin-left: 15px;
     font-size: 0.7em;
     font-family: 'Montserrat';

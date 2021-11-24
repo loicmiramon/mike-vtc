@@ -1,77 +1,67 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .cardInformationMikeVtc {
+  .card-informations {
     display: flex;
   }
   
-  .cardInformationMikeVtc {
+  .card-informations {
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin: 50px 0px;
   }
   
-  .iconeInformationMikeVtc {
-    width: 15vw;
-    margin: 20px 0px;
-  }
-  
-  .titreCardInformationMikeVtc,
-  .textCardInformationMikeVtc {
+  .titre-card-informations,
+  .paragraphe-card-informations {
     color: white;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
 
-  .titreCardInformationMikeVtc {
+  .titre-card-informations {
     font-size: 1.3em;
     text-decoration: underline;
   }
   
-  .textCardInformationMikeVtc {
+  .paragraphe-card-informations {
     text-align: center;
     width: 70%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .cardInformationMikeVtc {
+  .card-informations {
     display: flex;
   }
   
-  .cardInformationMikeVtc {
+  .card-informations {
     flex-direction: column;
     align-items: center;
     width: 50%;
   }
   
-  .iconeInformationMikeVtc {
-    width: 15vw;
-    margin: 20px 0px;
-  }
-  
-  .titreCardInformationMikeVtc,
-  .textCardInformationMikeVtc {
+  .titre-card-informations,
+  .paragraphe-card-informations {
     color: white;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
 
-  .titreCardInformationMikeVtc {
+  .titre-card-informations {
     text-decoration: underline;
   }
   
-  .textCardInformationMikeVtc {
+  .paragraphe-card-informations {
     text-align: center;
     width: 70%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .cardInformationMikeVtc {
+  .card-informations {
     display: flex;
   }
 
-  .cardInformationMikeVtc {
+  .card-informations {
     vertical-align: top;
     flex-direction: column;
     align-items: center;
@@ -80,22 +70,19 @@
     height: 250px;
   }
 
-  .iconeInformationMikeVtc {
-    width: 3vw;
-  }
 
-  .titreCardInformationMikeVtc,
-  .textCardInformationMikeVtc {
+  .titre-card-informations,
+  .paragraphe-card-informations {
     color: white;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
 
-  .titreCardInformationMikeVtc {
+  .titre-card-informations {
     text-decoration: underline;
   }
 
-  .textCardInformationMikeVtc {
+  .paragraphe-card-informations {
     text-align: center;
     width: 50%;
   }

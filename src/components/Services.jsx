@@ -7,17 +7,13 @@ const donneeService = bddService
 function Services() {
 
   const [service] = useState(donneeService)
-  // const [serviceOne, setServiceOne] = useState(false)
-  // const [serviceTwo, setServiceTwo] = useState(false)
-  // const [serviceThree, setServiceThree] = useState(false)
-  // const [serviceFour, setServiceFour] = useState(false)
 
 
 
   return (
-    <section id="services" className="sectionServicesMikeVtc">
-        <h1 className="titreServicesMikeVtc">Mes services</h1>
-        <div className="blocServicesMikeVtc">
+    <section id="services" className="section-services">
+        <h1 className="titre-services">Mes services</h1>
+        <div className="sous-container-services">
           {service.map(serv => 
             <ServiceCard
             key = {serv.id}

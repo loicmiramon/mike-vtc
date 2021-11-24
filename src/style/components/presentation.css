@@ -1,17 +1,17 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .presentationMikeVtc,
-  .imagePresentationMikeVtc,
-  .blocContentPresentation,
-  .blocTextPresentationMikeVtc {
+  .section-presentation,
+  .image-presentation,
+  .container-presentation,
+  .container-text-presentation {
     display: flex;
   }
 
-  .presentationMikeVtc {
+  .section-presentation {
     grid-area: m2;
     flex-direction: column;
   }
 
-  .imagePresentationMikeVtc {
+  .image-presentation {
     background-image: url('../../assets/images/profil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,36 +20,36 @@
     align-items: flex-end;
   }
 
-  .blocContentPresentation {
+  .container-presentation {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
 
-  .titrePresentationMikeVtc,
-  .sousTitrePresentationMikeVtc {
+  .titre-presentation,
+  .sous-titre-presentation {
     color: white;
     text-transform: uppercase;
   }
 
-  .titrePresentationMikeVtc {
+  .titre-presentation {
     font-size: 3em;
     font-family: "licenz plate";
   }
 
-  .sousTitrePresentationMikeVtc {
+  .sous-titre-presentation {
     font-family: "Montserrat";
     font-size: 1.5em;
   }
 
-  .blocTextPresentationMikeVtc {
+  .container-text-presentation {
     padding: 10px;
     justify-content: center;
     align-items: center;
     height: 60%;
   }
 
-  .paragraphePresentationMikeVtc {
+  .paragraphe-presentation {
     text-align: center;
     font-family: "Montserrat";
   }
@@ -58,21 +58,21 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .presentationMikeVtc,
-  .imagePresentationMikeVtc,
-  .blocContentPresentation,
-  .blocTextPresentationMikeVtc {
+  .section-presentation,
+  .image-presentation,
+  .container-presentation,
+  .container-text-presentation {
     display: flex;
   }
 
-  .presentationMikeVtc {
+  .section-presentation {
     grid-area: t2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .imagePresentationMikeVtc {
+  .image-presentation {
     background-image: url('../../assets/images/profil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,36 +83,36 @@
     align-items: flex-end;
   }
 
-  .blocContentPresentation {
+  .container-presentation {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
 
-  .titrePresentationMikeVtc,
-  .sousTitrePresentationMikeVtc {
+  .titre-presentation,
+  .sous-titre-presentation {
     color: white;
     text-transform: uppercase;
   }
 
-  .titrePresentationMikeVtc {
+  .titre-presentation {
     font-size: 2em;
     font-family: "licenz plate";
   }
 
-  .sousTitrePresentationMikeVtc {
+  .sous-titre-presentation {
     font-family: "Montserrat";
     font-size: 1em;
   }
 
-  .blocTextPresentationMikeVtc {
+  .container-text-presentation {
     padding: 10px;
     justify-content: center;
     align-items: center;
     height: 60%;
   }
 
-  .paragraphePresentationMikeVtc {
+  .paragraphe-presentation {
     text-align: center;
     font-family: "Montserrat";
     width: 80%;
@@ -121,14 +121,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .presentationMikeVtc,
-  .imagePresentationMikeVtc,
-  .blocContentPresentation,
-  .blocTextPresentationMikeVtc {
+  .section-presentation,
+  .image-presentation,
+  .container-presentation,
+  .container-text-presentation {
     display: flex;
   }
 
-  .presentationMikeVtc {
+  .section-presentation {
     grid-area: d2;
     flex-direction: row;
     align-items: center;
@@ -136,7 +136,7 @@
     padding: 20px;
   }
 
-  .imagePresentationMikeVtc {
+  .image-presentation {
     background-image: url('../../assets/images/profil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,29 +147,29 @@
     align-items: flex-end;
   }
 
-  .blocContentPresentation {
+  .container-presentation {
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
 
-  .titrePresentationMikeVtc,
-  .sousTitrePresentationMikeVtc {
+  .titre-presentation,
+  .sous-titre-presentation {
     color: white;
     text-transform: uppercase;
   }
 
-  .titrePresentationMikeVtc {
+  .titre-presentation {
     font-size: 3em;
     font-family: "licenz plate";
   }
 
-  .sousTitrePresentationMikeVtc {
+  .sous-titre-presentation {
     font-family: "Montserrat";
     font-size: 1.5em;
   }
 
-  .blocTextPresentationMikeVtc {
+  .container-text-presentation {
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -177,15 +177,10 @@
     width: 50%;
   }
 
-  .paragraphePresentationMikeVtc {
+  .paragraphe-presentation {
     text-align: center;
     font-family: "Montserrat";
     width: 80%;
   }
 
 }
-
-/* 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  
-} */

@@ -7,10 +7,10 @@ const bdd = bddInformation
 function Information() {
   const [list] = useState(bdd)
   return (
-    <section id="information" className="sectionInformationMikeVtc">
-      <div className="blocEngagementMikeVtc">
-        <h1 className="titreInformationEngagementMikeVtc">Nos engagements envers vous</h1>
-        <div className="blocCardEngagementInfosMikeVtc">
+    <section id="information" className="section-informations">
+      <div className="container-engagement-informations">
+        <h1 className="titre-engagement-informations">Nos engagements envers vous</h1>
+        <div className="container-card-engagement-informations">
           <InformationCard 
             state= {list[0]}
             image= {list[0].image}
@@ -19,9 +19,9 @@ function Information() {
             />
         </div>
       </div>
-      <div className="blocSecuriterMikeVtc">
-        <h1 className="titreInformationSecuriterMikeVtc">Votre securite, ma priorite</h1>
-        <div className="blocCardSecuriterInfosMikeVtc">
+      <div className="container-securiter-informations">
+        <h1 className="titre-securiter-informations">Votre securite, ma priorite</h1>
+        <div className="container-card-securiter-informations">
         <InformationCard 
         state= {list[1]}
         image= {list[1].image}

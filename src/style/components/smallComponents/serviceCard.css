@@ -1,10 +1,10 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .btnServiceMikeVtc,
-  .servicesMikeVtc {
+  .btn-services,
+  .container-services {
     display: flex;
   }
   
-  .servicesMikeVtc {
+  .container-services {
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     height: 300px;
   }
   
-  .sousTitreServicesMikeVtc {
+  .sous-titre-services {
     z-index: 2;
     color: white;
     font-family: "Licenz plate";
@@ -22,7 +22,7 @@
     font-weight: 300;
   }
   
-  .blocContentServiceMikeVtc {
+  .container-content-services {
     z-index: 2;
     flex-direction: column;
     justify-content: space-evenly;
@@ -30,7 +30,7 @@
     height: 50%;
   }
 
-  .filterCardService {
+  .filter-services {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,20 +38,20 @@
     bottom: 0;
   }
 
-  .filterCardServiceShow {
+  .filter-services-show {
     animation: serviceFilterShow .3s ;
     background-color: rgba(0, 0, 0, 0.493);
   }
 
-  .showService {
+  .show-services {
     display: flex;
   }
 
-  .hiddenService {
+  .hidden-services {
     display: none;
   }
   
-  .paragrapheServiceMikeVtc {
+  .paragraphe-services {
     text-align: center;
     width: 70%;
     margin: 30px 0px;
@@ -60,7 +60,7 @@
     font-size: 1.3em;
   }
 
-  .btnServiceMikeVtc {
+  .btn-services {
     width: 80%;
     height: 35px;
     border: 1px solid #2D3E80;
@@ -74,25 +74,25 @@
   }
 
   
-  .servicesMikeVtc:nth-of-type(1) {
+  .container-services:nth-of-type(1) {
     background-image: url('../../../assets/images/disposition.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(2) {
+  .container-services:nth-of-type(2) {
     background-image: url('../../../assets//images/unique.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(3) {
+  .container-services:nth-of-type(3) {
     background-image: url('../../../assets//images/aeroport.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(4) {
+  .container-services:nth-of-type(4) {
     background-image: url('../../../assets//images/loisir.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,12 +100,12 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .btnServiceMikeVtc,
-  .servicesMikeVtc {
+  .btn-services,
+  .container-services {
     display: flex;
   }
   
-  .servicesMikeVtc {
+  .container-services {
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@
     height: 300px;
   }
   
-  .sousTitreServicesMikeVtc {
+  .sous-titre-services {
     z-index: 2;
     color: white;
     font-family: "Licenz plate";
@@ -123,14 +123,14 @@
     font-weight: 300;
   }
   
-  .blocContentServiceMikeVtc {
+  .container-content-services {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 50%;
   }
 
-  .filterCardService {
+  .filter-services {
     position: absolute;
     top: 0;
     left: 0;
@@ -138,20 +138,20 @@
     bottom: 0;
   }
 
-  .filterCardServiceShow {
+  .filter-services-show {
     animation: serviceFilterShow .3s ;
     background-color: rgba(0, 0, 0, 0.493);
   }
 
-  .showService {
+  .show-services {
     display: flex;
   }
 
-  .hiddenService {
+  .hidden-services {
     display: none;
   }
   
-  .paragrapheServiceMikeVtc {
+  .paragraphe-services {
     text-align: center;
     width: 70%;
     margin: 50px 0px;
@@ -160,7 +160,7 @@
     font-size: 1.3em;
   }
 
-  .btnServiceMikeVtc {
+  .btn-services {
     width: 80%;
     height: 35px;
     border: 1px solid #2D3E80;
@@ -174,25 +174,25 @@
   }
 
   
-  .servicesMikeVtc:nth-of-type(1) {
+  .container-services:nth-of-type(1) {
     background-image: url('../../../assets/images/disposition.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(2) {
+  .container-services:nth-of-type(2) {
     background-image: url('../../../assets//images/unique.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(3) {
+  .container-services:nth-of-type(3) {
     background-image: url('../../../assets//images/aeroport.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(4) {
+  .container-services:nth-of-type(4) {
     background-image: url('../../../assets//images/loisir.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,12 +200,12 @@
 }
 
 @media screen and  (min-width: 1024px) {
-  .btnServiceMikeVtc,
-  .servicesMikeVtc {
+  .btn-services,
+  .container-services {
     display: flex;
   }
   
-  .servicesMikeVtc {
+  .container-services {
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -215,7 +215,7 @@
     margin: 10px;
   }
   
-  .sousTitreServicesMikeVtc {
+  .sous-titre-services {
     z-index: 2;
     color: white;
     font-family: "Licenz plate";
@@ -225,7 +225,7 @@
     cursor: pointer;
   }
   
-  .blocContentServiceMikeVtc {
+  .container-content-services {
     z-index: 2;
     flex-direction: column;
     justify-content: space-evenly;
@@ -233,7 +233,7 @@
     height: 50%;
   }
 
-  .filterCardService {
+  .filter-services {
     position: absolute;
     top: 0;
     left: 0;
@@ -241,21 +241,21 @@
     bottom: 0;
   }
 
-  .filterCardServiceShow {
+  .filter-services-show {
     animation: serviceFilterShow .3s ;
     background-color: rgba(0, 0, 0, 0.493);
   }
 
-  .showService {
+  .show-services {
     display: flex;
     animation: servicesShow .3s;
   }
 
-  .hiddenService {
+  .hidden-services {
     display: none;
   }
   
-  .paragrapheServiceMikeVtc {
+  .paragraphe-services {
     text-align: center;
     width: 70%;
     margin: 50px 0px;
@@ -264,7 +264,7 @@
     font-size: 1.3em;
   }
 
-  .btnServiceMikeVtc {
+  .btn-services {
     width: 80%;
     height: 35px;
     border: 1px solid #2D3E80;
@@ -278,25 +278,25 @@
   }
 
   
-  .servicesMikeVtc:nth-of-type(1) {
+  .container-services:nth-of-type(1) {
     background-image: url('../../../assets/images/disposition.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(2) {
+  .container-services:nth-of-type(2) {
     background-image: url('../../../assets//images/unique.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(3) {
+  .container-services:nth-of-type(3) {
     background-image: url('../../../assets//images/aeroport.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
   
-  .servicesMikeVtc:nth-of-type(4) {
+  .container-services:nth-of-type(4) {
     background-image: url('../../../assets//images/loisir.png');
     background-size: cover;
     background-repeat: no-repeat;

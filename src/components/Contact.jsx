@@ -24,27 +24,26 @@ function Contact() {
 
   const [listContact] = useState(donneeContact)
   return (
-    <section id="contact" className="sectionContactMikeVtc">
-      <div className="blocInfosContactMikeVtc">
-        <div className="sousBlocInfosContactMikeVtc">
-          <img className="imgContactMikeVtc" src={logoContact} alt="" />
-          <h2 className="titreContactMikeVtc">Une question ?</h2>
-          <h3 className="sousTitreContactMikeVtc">Contactez votre chauffeur</h3>
-          <p className="textContactMikeVtc">
+    <section id="contact" className="section-contact">
+      <div className="container-information-contact">
+        <div className="sous-container-contact">
+          <img className="logo-contact" src={logoContact} alt="" />
+          <h2 className="titre-contact">Une question ?</h2>
+          <h3 className="sous-titre-contact">Contactez votre chauffeur</h3>
+          <p className="paragraphe-contact">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere alias corporis voluptates repellendus ab aliquid quam sint blanditiis ipsa animi.
           </p>
         </div>
-        <div className="blocCardContactMikeVtc">
+        <div className="container-card-contact">
           {listContact.map(infos => 
-          <article key={infos.id} className='cardContactMikeVtc'>
-            {/* <img src={infos.image} alt="" className="imgCardContactMikeVtc" /> */}
+          <article key={infos.id} className='card-contact'>
             {infos.image}
-            <h2 className="titreCardContactMikeVtc">{infos.titre}</h2>
+            <h2 className="titre-card-contact">{infos.titre}</h2>
           </article>
           )}
         </div>
       </div>
-      <form action="" className="formContactMikeVtc">
+      <form action="" className="form-contact">
         <FormChampContact 
         method={handleChangeContact}
         value={nom}
@@ -72,7 +71,7 @@ function Contact() {
        name="message"
        placeholder="Message"
        value={message}>Votre message</FormAreaContact>
-        <button className="btnContactMikeVtc">envoyer</button>
+        <button className="btn-contact">envoyer</button>
       </form>
     </section>
   )

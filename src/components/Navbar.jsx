@@ -10,8 +10,8 @@ function Navbar() {
 
   useEffect(() => {
 
-    const asideNavigation = document.querySelector('.asideMikeVtc');
-    const header = document.querySelector('.headerMikeVtc')
+    const asideNavigation = document.querySelector('.aside-navbar');
+    const header = document.querySelector('.container-header')
     const ratioNavFixed = 1;
     const optionsNavFixed = {
       root: null,
@@ -22,9 +22,9 @@ function Navbar() {
     const navFixed = function (entries) {
       entries.forEach(entry => {
         if(entry.intersectionRatio < ratioNavFixed) {
-          asideNavigation.classList.add('navFixed');
+          asideNavigation.classList.add('nav-fixed');
         } else {
-          asideNavigation.classList.remove('navFixed');
+          asideNavigation.classList.remove('nav-fixed');
         }
       })
     }
@@ -43,24 +43,24 @@ function Navbar() {
   }
 
   return (
-    <aside className={`asideMikeVtc ${showNav ? "asideWhite" : "asideBlue"}`}>
-      <img className="logoMikeVtc" src={`${showNav ? logoBlue : logoWhite}`} alt="Logo Mike VTC" />
-      <div onClick={() => handleShowNav()}  className="blocBurger">
+    <aside className={`aside-navbar ${showNav ? "aside-navbar-white" : null}`}>
+      <img className="logo-navbar" src={`${showNav ? logoBlue : logoWhite}`} alt="Logo Mike VTC" />
+      <div onClick={() => handleShowNav()}  className="container-burger-navbar">
         <Hamburger toggled={showNav}   duration="0.3" color={showNav ? "#2D3E80" : "white"} />
       </div>
-      <nav className={`navigationMikeVtc ${showNav ? "showNav" : "hiddenNav"}`}>
-        <ul className="blocNavigationMikeVtc">
-          <li onClick={handleClearNav} className="lienNavMikeVtc"><a href="#presentation">Presentation</a></li>
-          <li onClick={handleClearNav} className="lienNavMikeVtc"><a href="#information">Informations</a></li>
-          <li onClick={handleClearNav} className="lienNavMikeVtc"><a href="#services">Services</a></li>
-          <li onClick={handleClearNav} className="lienNavMikeVtc"><a href="#reservation">Reservation</a></li>
-          <li onClick={handleClearNav} className="lienNavMikeVtc"><a href="#contact">Contact</a></li>
+      <nav className={`navigation-navbar ${showNav ? "show-nav" : null}`}>
+        <ul className="list-navigation-navbar">
+          <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#presentation">Presentation</a></li>
+          <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#information">Informations</a></li>
+          <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#services">Services</a></li>
+          <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#reservation">Reservation</a></li>
+          <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div className="blocReseauMikeVtc">
-        <a href="https://www.instagram.com"><img className="iconeReseauMikeVtc" src={iconeInstagram} alt="" /></a>
-        <a href="https://www.facebook.com"><img className="iconeReseauMikeVtc" src={iconeFacebook} alt="" /></a>
-        <a href="https://www.linkedin.com"><img className="iconeReseauMikeVtc" src={iconeLinkedin} alt="" /></a>
+      <div className="container-reseaux-navbar">
+        <a href="https://www.instagram.com"><img className="icone-reseau-navbar" src={iconeInstagram} alt="" /></a>
+        <a href="https://www.facebook.com"><img className="icone-reseau-navbar" src={iconeFacebook} alt="" /></a>
+        <a href="https://www.linkedin.com"><img className="icone-reseau-navbar" src={iconeLinkedin} alt="" /></a>
       </div>
     </aside>
   )

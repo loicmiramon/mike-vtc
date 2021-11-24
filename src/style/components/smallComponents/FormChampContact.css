@@ -1,0 +1,37 @@
+.container-input-contact {
+  display: flex;
+}
+
+.container-input-contact {
+  width: 100%;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-contact {
+  color: #2D3E80;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.input-contact,
+.area-contact {
+  font-family: "Montserrat";
+  outline: none;
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #2D3E80;
+  text-align: center;
+  font-size: 1em;
+  color: #2d3e80c9;
+  text-transform: uppercase;
+}
+
+.area-contact {
+  height: 200px;
+  padding-top: 10px;
+}

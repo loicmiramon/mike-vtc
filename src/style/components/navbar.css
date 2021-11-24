@@ -1,12 +1,12 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .asideMikeVtc,
-  .blocBurger,
-  .blocNavigationMikeVtc,
-  .lienNavMikeVtc {
+  .aside-navbar,
+  .container-burger-navbar,
+  .list-navigation-navbar,
+  .lien-navigation-navbar {
     display: flex;
   }
   
-  .asideMikeVtc {
+  .aside-navbar {
     position: absolute;
     top: 0px;
     left: 0;
@@ -18,20 +18,20 @@
   
   }
 
-  .asideWhite {
+  .aside-navbar-white {
     background-color: #ffffff;
   }
 
-  .logoMikeVtc {
+  .logo-navbar {
     z-index: 3;
     width: 20vw
   }
 
-  .blocReseauMikeVtc {
+  .container-reseaux-navbar {
     display: none;
   }
 
-  .navigationMikeVtc {
+  .navigation-navbar {
     z-index: 3;
     position: absolute;
     top: 80px;
@@ -45,7 +45,7 @@
     justify-content: center;
   }
 
-  .blocNavigationMikeVtc {
+  .list-navigation-navbar {
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -53,12 +53,12 @@
     width: 100%;
   }
 
-  .showNav {
+  .show-nav {
     animation: openNav .3s;
     opacity: 1;
   }
 
-  .navFixed {
+  .nav-fixed {
     animation: fixedNav .3s forwards;
     position: fixed;
     top: 0;
@@ -67,7 +67,7 @@
     z-index: 3;
   }
 
-  .lienNavMikeVtc {
+  .lien-navigation-navbar {
     font-family: "Licenz plate";
     text-transform: uppercase;
     justify-content: center;
@@ -78,11 +78,11 @@
     text-decoration: none;
     color: #ffffff;
   }
-  .lienNavMikeVtc a {
+  .lien-navigation-navbar a {
     color: white;
   }
 
-  .blocBurger {
+  .container-burger-navbar {
     z-index: 2;
     transform: translateX(-25px);
     flex-direction: column;
@@ -94,14 +94,14 @@
 }
 
 @media screen  and (min-width: 768px) and (max-width:1024px) {
-  .asideMikeVtc,
-  .blocBurger,
-  .blocNavigationMikeVtc,
-  .lienNavMikeVtc {
+  .aside-navbar,
+  .container-burger-navbar,
+  .list-navigation-navbar,
+  .lien-navigation-navbar {
     display: flex;
   }
 
-  .asideMikeVtc {
+  .aside-navbar {
     position: absolute;
     top: 0px;
     left: 0;
@@ -113,19 +113,19 @@
   
   }
 
-  .asideWhite {
+  .aside-navbar-white {
     background-color: #ffffff;
   }
 
-  .logoMikeVtc {
+  .logo-navbar {
     width: 12vw;
   }
 
-  .blocReseauMikeVtc {
+  .container-reseaux-navbar {
     display: none;
   }
 
-  .navigationMikeVtc {
+  .navigation-navbar {
     z-index: 3;
     position: absolute;
     top: 80px;
@@ -139,7 +139,7 @@
     justify-content: center;
   }
 
-  .blocNavigationMikeVtc {
+  .list-navigation-navbar {
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -147,12 +147,12 @@
     width: 100%;
   }
 
-  .showNav {
+  .show-nav {
     animation: openNav .3s;
     opacity: 1;
   }
 
-  .navFixed {
+  .nav-fixed {
     animation: fixedNav .3s forwards;
     position: fixed;
     top: 0;
@@ -161,7 +161,7 @@
     z-index: 3;
   }
 
-  .lienNavMikeVtc {
+  .lien-navigation-navbar {
     font-family: "Licenz plate";
     text-transform: uppercase;
     justify-content: center;
@@ -173,11 +173,11 @@
     color: #ffffff;
   }
 
-  .lienNavMikeVtc a {
+  .lien-navigation-navbar a {
     color: white;
   }
 
-  .blocBurger {
+  .container-burger-navbar {
     z-index: 2;
     transform: translateX(-25px);
     flex-direction: column;
@@ -187,15 +187,15 @@
 }
 
 @media screen  and (min-width:1024px) {
-  .asideMikeVtc,
-  .blocBurger,
-  .navigationMikeVtc,
-  .blocNavigationMikeVtc,
-  .blocReseauMikeVtc {
+  .aside-navbar,
+  .container-burger-navbar,
+  .navigation-navbar,
+  .list-navigation-navbar,
+  .container-reseaux-navbar {
     display: flex;
   }
 
-  .asideMikeVtc {
+  .aside-navbar {
     position: absolute;
     top: 0;
     left: 0;
@@ -207,21 +207,21 @@
   
   }
 
-  .logoMikeVtc {
+  .logo-navbar {
     width: 7vw;
   }
 
-  .navigationMikeVtc {
+  .navigation-navbar {
     flex-direction: row;
     align-items: center;
   }
 
-  .blocNavigationMikeVtc {
+  .list-navigation-navbar {
     font-size: 1.5em;
     list-style: none;
   }
 
-  .lienNavMikeVtc {
+  .lien-navigation-navbar {
     font-family: "Licenz plate";
     text-transform: uppercase;
     text-decoration: none;
@@ -229,7 +229,7 @@
     padding: 20px;
   }
 
-  .lienNavMikeVtc a {
+  .lien-navigation-navbar a {
     color: white;
   }
 
@@ -237,7 +237,7 @@
     text-decoration: white;
   }
 
-  .navFixed {
+  .nav-fixed {
     animation: fixedNav .3s forwards;
     position: fixed;
     top: 0;
@@ -246,20 +246,20 @@
     z-index: 3;
   }
 
-  .lienNavMikeVtc:hover a {
+  .lien-navigation-navbar:hover a {
     text-decoration: underline;
   }
 
-  .blocReseauMikeVtc {
+  .container-reseaux-navbar {
     justify-content: space-evenly;
     align-items: center;
   }
   
-  .iconeReseauMikeVtc {
+  .icone-reseau-navbar {
     width: 50%;
   }
 
-  .blocBurger {
+  .container-burger-navbar {
     display: none;
     transform: translateX(-25px);
     flex-direction: column;

@@ -9,12 +9,12 @@ function ServiceCard(props) {
   }
 
   return (
-      <article className="servicesMikeVtc" onClick={props.click}>
-        <div className={` filterCardService ${showService ? "filterCardServiceShow" : null}`}></div>
-          <h2 onClick={() => handleShowService()} className="sousTitreServicesMikeVtc">{props.titreService}</h2>
-          <div className={`blocContentServiceMikeVtc ${showService ? "showService" : "hiddenService"}`}>
-            <p className="paragrapheServiceMikeVtc">{props.contentService}</p>
-            <button className="btnServiceMikeVtc">{props.boutonService}</button>
+      <article className="container-services" onClick={props.click}>
+        <div className={` filter-services ${showService ? "filter-services-show" : null}`}></div>
+          <h2 onClick={() => handleShowService()} className="sous-titre-services">{props.titreService}</h2>
+          <div className={`container-content-services ${showService ? "show-services" : "hidden-services"}`}>
+            <p className="paragraphe-services">{props.contentService}</p>
+            <button className="btn-services">{props.boutonService}</button>
           </div>
         </article>
   )

@@ -2,14 +2,18 @@
 @import '../style/components/navbar.css';
 @import '../style/components/presentation.css';
 @import '../style/components/information.css';
-@import '../style/components/smallComponents/informationCard.css';
 @import '../style/components/vehicule.css';
 @import '../style/components/services.css';
-@import '../style/components/smallComponents/serviceCard.css';
 @import '../style/components/reservation.css';
 @import '../style/components/contact.css';
 @import '../style/components/footer.css';
 @import '../style/pages/accueil.css';
+
+
+@import '../style/components/smallComponents/informationCard.css';
+@import '../style/components/smallComponents/serviceCard.css';
+@import '../style/components/smallComponents/FormChampContact.css';
+@import '../style/components/smallComponents/FormChampReservation.css';
 
 
 

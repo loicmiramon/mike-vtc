@@ -1,12 +1,12 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .sectionInformationMikeVtc,
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc {
+  .section-informations,
+  .container-engagement-informations,
+  .container-securiter-informations {
     display: flex;
 
   }
   
-  .sectionInformationMikeVtc {
+  .section-informations {
     grid-area: m3;
     flex-direction: column;
     align-items: center;
@@ -14,17 +14,16 @@
     width: 100%;
   }
 
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc {
+  .container-engagement-informations,
+  .container-securiter-informations {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin: 20px 0px;
   }
 
-
-  .titreInformationEngagementMikeVtc,
-  .titreInformationSecuriterMikeVtc {
+  .titre-engagement-informations,
+  .titre-securiter-informations {
     margin: 20px 0px;
     color: white;
     font-family: "Licenz plate";
@@ -34,22 +33,22 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .sectionInformationMikeVtc,
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc,
-  .blocCardEngagementInfosMikeVtc,
-  .blocCardSecuriterInfosMikeVtc {
+  .section-informations,
+  .container-engagement-informations,
+  .container-securiter-informations,
+  .container-card-engagement-informations,
+  .container-card-securiter-informations {
     display: flex;
 
   }
 
-  .blocCardEngagementInfosMikeVtc,
-  .blocCardSecuriterInfosMikeVtc {
+  .container-card-engagement-informations,
+  .container-card-securiter-informations {
     flex-wrap: wrap;
     justify-content: center;
   }
   
-  .sectionInformationMikeVtc {
+  .section-informations {
     grid-area: t3;
     flex-direction: column;
     align-items: center;
@@ -57,16 +56,16 @@
     width: 100%;
   }
 
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc {
+  .container-engagement-informations,
+  .container-securiter-informations {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 20px 0px;
   }
 
-  .titreInformationEngagementMikeVtc,
-  .titreInformationSecuriterMikeVtc {
+  .titre-engagement-informations,
+  .titre-securiter-informations {
     margin: 20px 0px;
     color: white;
     font-family: "Licenz plate";
@@ -77,24 +76,24 @@
 
 
 @media screen and (min-width: 1024px) {
-  .sectionInformationMikeVtc,
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc,
-  .blocCardEngagementInfosMikeVtc,
-  .blocCardSecuriterInfosMikeVtc {
+  .section-informations,
+  .container-engagement-informations,
+  .container-securiter-informations,
+  .container-card-engagement-informations,
+  .container-card-securiter-informations {
     display: flex;
 
   }
 
-  .blocCardEngagementInfosMikeVtc,
-  .blocCardSecuriterInfosMikeVtc {
+  .container-card-engagement-informations,
+  .container-card-securiter-informations {
     width: 100%;
     justify-content: center;
     height: 400px;
     align-items: center;
   }
   
-  .sectionInformationMikeVtc {
+  .section-informations {
     grid-area: d3;
     flex-direction: column;
     align-items: center;
@@ -102,16 +101,16 @@
     width: 100%;
   }
 
-  .blocEngagementMikeVtc,
-  .blocSecuriterMikeVtc {
+  .container-engagement-informations,
+  .container-securiter-informations {
     flex-direction: column;
     align-items: center;
     margin: 20px 0px;
     width: 100%;
   }
 
-  .titreInformationEngagementMikeVtc,
-  .titreInformationSecuriterMikeVtc {
+  .titre-engagement-informations,
+  .titre-securiter-informations {
     margin: 20px 0px;
     color: white;
     font-family: "Licenz plate";
