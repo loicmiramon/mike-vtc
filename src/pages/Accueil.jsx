@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar'
 
 function Accueil() {
   return (
-    <div className="accueilMikeVtc">
+    <div className="accueil-mike-vtc">
       <Header />
       <Navbar />
       <Presentation />

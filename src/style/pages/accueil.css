@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .accueilMikeVtc {
+  .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100vh repeat(6, 1fr) 50vh;
@@ -19,7 +19,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   
   
-  .accueilMikeVtc {
+  .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100vh repeat(6, 1fr) 50vh;
@@ -37,7 +37,7 @@
 }
 
 @media screen and  (min-width: 1024px) {
-  .accueilMikeVtc {
+  .accueil-mike-vtc {
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 100vh repeat(6, auto) 50vh;

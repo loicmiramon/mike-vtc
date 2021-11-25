@@ -20,7 +20,6 @@ function Reservation() {
   const {nom, telephone, email, services, localisation, destination} = reservationData
 
   const handleChangeReservation = e => {
-    
     setReservationData({...reservationData, [e.target.id]: e.target.value})
   } 
 

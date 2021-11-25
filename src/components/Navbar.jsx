@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import logoWhite from '../assets/images/logo/logo-blanc-sf.png'
 import logoBlue from '../assets/images/logo/logo-bleu-sf.png'
 import iconeInstagram from '../assets/icones/instagram.png'
@@ -7,30 +7,6 @@ import iconeLinkedin from '../assets/icones/linkedin.png'
 import { Sling as Hamburger } from 'hamburger-react'
 
 function Navbar() {
-
-  useEffect(() => {
-
-    const asideNavigation = document.querySelector('.aside-navbar');
-    const header = document.querySelector('.container-header')
-    const ratioNavFixed = 1;
-    const optionsNavFixed = {
-      root: null,
-      rootMargin: '0px',
-      threshold: ratioNavFixed
-    }
-
-    const navFixed = function (entries) {
-      entries.forEach(entry => {
-        if(entry.intersectionRatio < ratioNavFixed) {
-          asideNavigation.classList.add('nav-fixed');
-        } else {
-          asideNavigation.classList.remove('nav-fixed');
-        }
-      })
-    }
-    const observerNavFixed = new IntersectionObserver(navFixed, optionsNavFixed)
-    observerNavFixed.observe(header)
-  }, [])
 
   const [showNav, setShowNav] = useState(false);
   
@@ -43,12 +19,12 @@ function Navbar() {
   }
 
   return (
-    <aside className={`aside-navbar ${showNav ? "aside-navbar-white" : null}`}>
+    <aside className={`aside-navbar ${showNav ? "aside-navbar-white" : ''}`}>
       <img className="logo-navbar" src={`${showNav ? logoBlue : logoWhite}`} alt="Logo Mike VTC" />
       <div onClick={() => handleShowNav()}  className="container-burger-navbar">
         <Hamburger toggled={showNav}   duration="0.3" color={showNav ? "#2D3E80" : "white"} />
       </div>
-      <nav className={`navigation-navbar ${showNav ? "show-nav" : null}`}>
+      <nav className={`navigation-navbar ${showNav ? "show-nav" : ''}`}>
         <ul className="list-navigation-navbar">
           <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#presentation">Presentation</a></li>
           <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#information">Informations</a></li>
