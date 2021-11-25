@@ -53,6 +53,10 @@
     width: 100%;
   }
 
+  .hidden-nav {
+    display: none;
+  }
+
   .show-nav {
     animation: openNav .3s;
     opacity: 1;
@@ -150,6 +154,10 @@
   .show-nav {
     animation: openNav .3s;
     opacity: 1;
+  }
+
+  .hidden-nav {
+    display: none;
   }
 
   .nav-fixed {

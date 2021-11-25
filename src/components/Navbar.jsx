@@ -24,7 +24,7 @@ function Navbar() {
       <div onClick={() => handleShowNav()}  className="container-burger-navbar">
         <Hamburger toggled={showNav}   duration="0.3" color={showNav ? "#2D3E80" : "white"} />
       </div>
-      <nav className={`navigation-navbar ${showNav ? "show-nav" : ''}`}>
+      <nav className={`navigation-navbar ${showNav ? "show-nav" : 'hidden-nav'}`}>
         <ul className="list-navigation-navbar">
           <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#presentation">Presentation</a></li>
           <li onClick={handleClearNav} className="lien-navigation-navbar"><a href="#information">Informations</a></li>
