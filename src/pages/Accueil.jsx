@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
-import Presentation from '../components/Presentation'
-import Information from '../components/Information'
-import Vehicule from '../components/Vehicule'
-import Services from '../components/Services'
-import Reservation from '../components/Reservation'
-import Contact from '../components/Contact'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Header from '../components/header/Header'
+import Presentation from '../components/presentation/Presentation'
+import Information from '../components/information/Information'
+import Vehicule from '../components/vehicule/Vehicule'
+import Services from '../components/service/Services'
+import Reservation from '../components/reservation/Reservation'
+import Contact from '../components/contact/Contact'
+import Footer from '../components/footer/Footer'
+import Navbar from '../components/navbar/Navbar'
 
 function Accueil() {
   return (

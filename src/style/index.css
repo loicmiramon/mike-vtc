@@ -1,19 +1,20 @@
-@import '../style/components/header.css';
-@import '../style/components/navbar.css';
-@import '../style/components/presentation.css';
-@import '../style/components/information.css';
-@import '../style/components/vehicule.css';
-@import '../style/components/services.css';
-@import '../style/components/reservation.css';
-@import '../style/components/contact.css';
-@import '../style/components/footer.css';
+@import '../style/components/header/header.css';
+@import '../style/components/navbar/navbar.css';
+@import '../style/components/presentation/presentation.css';
+@import '../style/components/information/information.css';
+@import '../style/components/vehicule/vehicule.css';
+@import '../style/components/service/services.css';
+@import '../style/components/reservation/reservation.css';
+@import '../style/components/contact/contact.css';
+@import '../style/components/footer/footer.css';
+
 @import '../style/pages/accueil.css';
 
-
-@import '../style/components/smallComponents/informationCard.css';
-@import '../style/components/smallComponents/serviceCard.css';
-@import '../style/components/smallComponents/FormChampContact.css';
-@import '../style/components/smallComponents/FormChampReservation.css';
+@import '../style/components/information/card/informationCard.css';
+@import '../style/components/service/card/serviceCard.css';
+@import '../style/components/contact/form/fieldContact.css';
+@import '../style/components/reservation/form/fieldReservation.css';
+@import '../style/components/reservation/popup/popUp.css';
 
 
 
