@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FormAreaContact = (props) => {
+const FieldArea = (props) => {
 
   const {register, id, name, placeholder, children } = props
 
@@ -12,4 +12,4 @@ const FormAreaContact = (props) => {
   )
 }
 
-export default FormAreaContact
+export default FieldArea

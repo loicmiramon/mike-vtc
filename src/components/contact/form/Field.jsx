@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FormChampContact = (props) => {
+const Field = (props) => {
   const {register, name, type, id, placeholder, children} = props
   return (
     <div className="container-input-contact">
@@ -10,4 +10,4 @@ const FormChampContact = (props) => {
   )
 }
 
-export default FormChampContact
+export default Field

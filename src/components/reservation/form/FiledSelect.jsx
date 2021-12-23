@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FormSelect = (props) => {
+const FieldSelect = (props) => {
   const {register, name, id, children} = props
   return (
     <div className="container-input-reservation">
@@ -15,4 +15,4 @@ const FormSelect = (props) => {
   )
 }
 
-export default FormSelect
+export default FieldSelect

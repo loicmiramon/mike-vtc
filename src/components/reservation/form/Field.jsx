@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FormChamp = (props) => {
+const Field = (props) => {
   const {register, type, name, id, placeholder, children} = props
   return (
     <div className="container-input-reservation">
@@ -10,6 +10,6 @@ const FormChamp = (props) => {
   )
 }
 
-export default FormChamp
+export default Field
 
 
