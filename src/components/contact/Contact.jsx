@@ -10,7 +10,6 @@ const donneeContact = bddContact;
 function Contact() {
 
   const [listContact] = useState(donneeContact)
-
   const {register, handleSubmit, reset} = useForm()
 
   const handleSubmitContact = data => {
@@ -20,6 +19,7 @@ function Contact() {
     console.log(contactData)
     reset()
   }
+
 
   return (
     <section id="contact" className="section-contact">

@@ -2,25 +2,25 @@ const services = [
   {
     id: Math.random(),
     titre: "Mise a disposition",
-    content: "Ce service vous propose de vous emmener à une destination qui peut être au delà d'un kilométrage.",
+    content: "Profitez d'un chauffeur mis à votre disposition pour tout type de trajet.",
     bouton: "Réserver"
   },
   {
     id: Math.random(),
     titre: "Trajet unique",
-    content: "Ce service propose un trajet unique pour vous rendre à une destination.",
+    content: "Profitez d'un chauffeur pour un trajet unique afin de vous rendre à une destination précise.",
     bouton: "Réserver"
   },
   {
     id: Math.random(),
     titre: "Trajet aeroport",
-    content: "Ce service propose de vous emmener à l'aéroport pour vos départ de voyage.",
+    content: "Profitez d'un chauffeur pour un trajet afin de vous rendre à l'aéroport.",
     bouton: "Réserver"
   },
   {
     id: Math.random(),
     titre: "Trajet loisir",
-    content: "Ce service propose de vous ammener à des destination de loisirs (Parc d'attraction, stade).",
+    content: "Profitez d'un chauffeur pour un trajet en direction de vos loisirs.",
     bouton: "Réserver"
   },
 ]

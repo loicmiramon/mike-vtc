@@ -22,3 +22,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Back End Mike VTC
+server/mikevtcback/node_modules
+server/mikevtcback/config/.env
