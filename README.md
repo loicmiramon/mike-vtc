@@ -3,7 +3,7 @@
 Site de VTC en cour de développement.
 
 
-Lien du projet : # Bientôt disponible.
+Lien du projet : Bientôt disponible.
 
 ----------------
 
