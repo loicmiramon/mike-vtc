@@ -1,20 +1,42 @@
 import React from 'react'
+import emailjs from 'emailjs-com';
 
 const PopUp= (props) => {
 
-  const {state, title, data} = props
+  const {state, title, data, methodNotif} = props
+  
   
   const handleCancel = () => {
     state(false)
   }
   const handleSuccess = () => {
+    sendEmailReservation(data)
+    methodNotif()
     state(false)
+  }
+
+  const sendEmailReservation = (data) => {
+    console.log(data)
+    const dataEmailReservation = {
+      name: data.nom,
+      tel: data.telephone,
+      mail: data.email,
+      date: data.date,
+      horaire: data.horaire,
+      services: data.services,
+      localisation: data.localisation,
+      destination: data.destination 
+    }
+    emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
+    .then(res => {
+      console.log(res)
+    })
   }
 
   return (
     <div className='container-popup'>
       <h1 className='title-popup'>{title}</h1>
-      <p className="paragraphe-popup">Après la validation, votre réservation sera prise en compte.</p>
+      <p className="paragraphe-popup">Après la validation, votre réservation sera prise en compte. Le chauffeur confirmera celle-ci par email</p>
       <table className="table-popup">
         <thead className='thead-popup'>
           <tr className='tr-table-popup'>

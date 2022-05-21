@@ -19,13 +19,25 @@ function Reservation() {
   }
 
   const [popUp, setPopUp] = useState(false)
-  const {register, handleSubmit, reset} = useForm()
+  const [notifReservation, setNotifReservation] = useState(false)
   const [formData, setFormData] = useState(dataFormReservation)
+  const {register, handleSubmit, reset} = useForm()
 
   const handleSubmitReservation = data => {
-    setFormData({...data, data})
+    const dataReservation = {
+      ...data
+    }
+    setFormData(dataReservation)
     setPopUp(true)
+    
     reset()
+  }
+
+  const openNotifReservation = () => {
+    setNotifReservation(true)
+    setTimeout(() => {
+      setNotifReservation(false)
+    }, 7500)
   }
 
   return (
@@ -34,10 +46,14 @@ function Reservation() {
         state={setPopUp} 
         title="Recapitulatif"
         data={formData}
+        methodNotif={openNotifReservation}
       /> : null}
       <form onSubmit={handleSubmit(handleSubmitReservation)} className="form-reservation">
         <h2 className="titre-reservation">Reservez votre course des maintenant !</h2>
         <p className="paragraphe-reservation">Toute réservation doit être prise 24 Heures à l'avance ! En cas d'absence veuillez nous le renseigner. 20% doit être payée au lancement de la course. Vous recevrez les informations par email</p>
+        {
+          notifReservation && <span className="notification-reservation">Votre reservation a bien ete prise en compte</span>
+        }
         <div className="container-formulaire-reservation">
           <FormChampReservation 
           register={register}

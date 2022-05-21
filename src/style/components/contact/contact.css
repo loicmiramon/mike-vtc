@@ -5,7 +5,8 @@
   .container-card-contact,
   .card-contact,
   .form-contact,
-  .btn-contact{
+  .btn-contact,
+  .notification-contact {
     display: flex;
   }
 
@@ -65,44 +66,24 @@
     font-family: "Montserrat";
   }
 
+  .notification-contact {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+  }
+
   .form-contact {
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-/* 
-  .blocInputContactMikeVtc {
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .labelContactMikeVtc {
-    color: #2D3E80;
-    font-family: "Montserrat";
-    font-weight: bold;
-    margin: 5px;
-    text-transform: uppercase;
-  }
-
-  .inputContactMikeVtc,
-  .areaContactMikeVtc {
-    outline: none;
-    width: 70%;
-    height: 30px;
-    border-radius: 10px;
-    border: 1px solid #2D3E80;
-    text-align: center;
-    font-size: 1em;
-    color: #2d3e80c9;
-    text-transform: uppercase;
-  }
-
-  .areaContactMikeVtc {
-    height: 200px;
-    padding-top: 10px;
-  } */
 
   .btn-contact {
     justify-content: center;
@@ -125,7 +106,8 @@
   .container-card-contact,
   .card-contact,
   .form-contact,
-  .btn-contact {
+  .btn-contact,
+  .notification-contact {
     display: flex;
   }
 
@@ -188,44 +170,24 @@
     font-size: 1em;
   }
 
+  .notification-contact {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+  }
+
   .form-contact {
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-/* 
-  .blocInputContactMikeVtc {
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .labelContactMikeVtc {
-    color: #2D3E80;
-    font-family: "Montserrat";
-    font-weight: bold;
-    margin: 5px;
-    text-transform: uppercase;
-  }
-
-  .inputContactMikeVtc,
-  .areaContactMikeVtc {
-    outline: none;
-    width: 70%;
-    height: 30px;
-    border-radius: 10px;
-    border: 1px solid #2D3E80;
-    text-align: center;
-    font-size: 1em;
-    color: #2d3e80c9;
-    text-transform: uppercase;
-  }
-
-  .areaContactMikeVtc {
-    height: 200px;
-    padding-top: 10px;
-  } */
 
   .btn-contact {
     justify-content: center;
@@ -249,7 +211,8 @@
   .container-card-contact,
   .card-contact,
   .form-contact,
-  .btn-contact {
+  .btn-contact,
+  .notification-contact {
     display: flex;
   }
 
@@ -313,45 +276,24 @@
     font-size: 1em;
   }
 
+  .notification-contact {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: #ffffff;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+  }
+
   .form-contact {
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-
-  /* .blocInputContactMikeVtc {
-    width: 100%;
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .labelContactMikeVtc {
-    color: #2D3E80;
-    font-family: "Montserrat";
-    font-weight: bold;
-    margin: 5px;
-    text-transform: uppercase;
-  }
-  
-  .inputContactMikeVtc,
-  .areaContactMikeVtc {
-    font-family: "Montserrat";
-    outline: none;
-    width: 70%;
-    height: 50px;
-    border-radius: 10px;
-    border: 1px solid #2D3E80;
-    text-align: center;
-    font-size: 1em;
-    color: #2d3e80c9;
-    text-transform: uppercase;
-  }
-  
-  .areaContactMikeVtc {
-    height: 200px;
-    padding-top: 10px;
-  } */
 
   .btn-contact {
     justify-content: center;

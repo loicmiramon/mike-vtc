@@ -7,7 +7,7 @@ const FieldArea = (props) => {
   return (
     <div className="container-input-contact">
       <label htmlFor="" className="label-contact">{children}</label>
-      <textarea {...register(name)} className="area-contact" name={name} id={id} cols="30" rows="10" placeholder={placeholder}></textarea>
+      <textarea {...register(name)} className="area-contact" name={name} id={id} cols="30" rows="10" placeholder={placeholder} required></textarea>
     </div>
   )
 }

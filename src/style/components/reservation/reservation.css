@@ -4,7 +4,8 @@
   .container-formulaire-reservation,
   .sous-container-formulaire-reservation, 
   .sous-container-formulaire-reservation-2
-  .btn-reservation {
+  .btn-reservation,
+  .notification-reservation {
     display: flex;
   }
 
@@ -41,6 +42,19 @@
     font-weight: 200;
     font-size: 2em;
     text-align: center;
+  }
+
+  .notification-reservation {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
   }
 
   .paragraphe-reservation {
@@ -84,7 +98,8 @@
   .sous-container-formulaire-reservation,
   .sous-container-formulaire-reservation-2
   .btn-reservation,
-  .container-map-reservation {
+  .container-map-reservation,
+  .notification-reservation {
     display: flex;
   }
 
@@ -121,6 +136,19 @@
     font-weight: 200;
     font-size: 2em;
     text-align: center;
+  }
+
+  .notification-reservation {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
   }
 
   .paragraphe-reservation {
@@ -167,7 +195,8 @@
   .sous-container-formulaire-reservation,
   .sous-container-formulaire-reservation-2,
   .btn-reservation,
-  .container-map-reservation {
+  .container-map-reservation,
+  .notification-reservation {
     display: flex;
   }
 
@@ -210,6 +239,19 @@
     font-weight: 200;
     font-size: 2em;
     text-align: center;
+  }
+
+  .notification-reservation {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: "licenz plates";
+    color: #008000;
+    border: 2px solid #008000;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
   }
 
   .paragraphe-reservation {

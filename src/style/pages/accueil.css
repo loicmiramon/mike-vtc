@@ -2,7 +2,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh repeat(6, 1fr) 50vh;
+    grid-template-rows: 100vh repeat(6, 1fr) 30vh;
     grid-template-areas: 
     "m1"
     "m2"
@@ -22,7 +22,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh repeat(6, 1fr) 50vh;
+    grid-template-rows: 100vh repeat(6, 1fr) 20vh;
     grid-template-areas: 
     "t1"
     "t2"
@@ -40,7 +40,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 100vh repeat(6, auto) 50vh;
+    grid-template-rows: 100vh repeat(6, auto) 20vh;
     grid-template-areas: 
     "d1 d1 d1 d1"
     "d2 d2 d2 d2"

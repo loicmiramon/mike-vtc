@@ -24,7 +24,7 @@ function ServiceCard(props) {
             <p className="paragraphe-services">{props.contentService}</p>
             <button className="btn-services">{props.boutonService}</button>
           </div>
-        </article>
+      </article>
   )
 }
 

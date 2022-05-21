@@ -4,22 +4,44 @@ import logoContact from '../../assets/images/logo/logo-bfb.jpg'
 import bddContact from '../../bdd/bddContact'
 import FormAreaContact from './form/FieldAera';
 import FormChampContact from './form/Field';
+import emailjs from 'emailjs-com';
 
 const donneeContact = bddContact;
 
 function Contact() {
 
   const [listContact] = useState(donneeContact)
+  const [notifContact, setNotifContact] = useState(false)
   const {register, handleSubmit, reset} = useForm()
 
   const handleSubmitContact = data => {
     const contactData = {
       ...data
     }
-    console.log(contactData)
+    sendEmailContact(contactData)
+    openNotifContact()
     reset()
   }
 
+  const openNotifContact = () => {
+    setNotifContact(true)
+    setTimeout(() => {
+      setNotifContact(false)
+    }, 7500)
+  }
+
+  const sendEmailContact = (data) => {
+    const dataEmailContact = {
+      name: data.nom,
+      tel: data.telephone,
+      mail: data.email,
+      message: data.message 
+    }
+    emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
+    .then(res => {
+      console.log(res)
+    })
+  }
 
   return (
     <section id="contact" className="section-contact">
@@ -42,6 +64,9 @@ function Contact() {
         </div>
       </div>
       <form onSubmit={handleSubmit(handleSubmitContact)} action="" className="form-contact">
+        {
+          notifContact && <span className="notification-contact">Votre message a bien ete envoye</span>
+        }
         <FormChampContact 
         register={register}
         type="text"
