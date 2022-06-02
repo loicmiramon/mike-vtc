@@ -1,32 +1,198 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .footerMikeVtc {
+  .footerMikeVtc,
+  .container-footer,
+  .container-card-footer,
+  .card-footer,
+  .text-footer {
     display: flex;
   }
 
   .footerMikeVtc {
     grid-area: m8;
     background-color: #2D3E80;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-card-footer {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card-footer {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .titre-card-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 1.2em;
+  }
+
+  .logo-footer {
+    height: 25vh;
+  }
+
+  .text-footer {
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .lien-footer {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .footerMikeVtc {
+  .footerMikeVtc,
+  .container-footer,
+  .container-card-footer,
+  .card-footer,
+  .text-footer {
     display: flex;
   }
 
   .footerMikeVtc {
     grid-area: t8;
     background-color: #2D3E80;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-card-footer {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .card-footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .titre-card-footer {
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 1.2em;
+  }
+
+  .logo-footer {
+    height: 25vh;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .lien-footer {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .footerMikeVtc {
+  .footerMikeVtc,
+  .container-footer,
+  .container-card-footer,
+  .card-footer,
+  .text-footer {
     display: flex;
   }
 
   .footerMikeVtc {
     grid-area: d8;
     background-color: #2D3E80;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
   }
+
+  .container-footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-card-footer {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .card-footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .titre-card-footer {
+    margin-top: 15px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 1.2em;
+  }
+
+  .logo-footer {
+    height: 25vh;
+  }
+
+  .text-footer {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .lien-footer {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  
 }

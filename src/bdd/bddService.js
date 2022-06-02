@@ -2,27 +2,27 @@ const services = [
   {
     id: Math.random(),
     titre: "Mise a disposition",
-    content: "Profitez d'un chauffeur pour vos trajets (courte à longue durée).",
+    content: "Réservez votre chauffeur pour vos déplacements jusqu'à 24h.",
     bouton: "Réserver"
   },
   {
     id: Math.random(),
     titre: "Trajet unique",
-    content: "Profitez d'un chauffeur pour vous rendre à une destination précise.",
+    content: "Réservez votre chauffeur pour votre destination.",
     bouton: "Réserver"
   },
   {
     id: Math.random(),
     titre: "Trajet aeroport",
-    content: "Profitez d'un chauffeur pour votre trajet en direction de l'aéroport.",
+    content: "Réservez votre chauffeur en direction de l'aéroport pour vos voyages.",
     bouton: "Réserver"
   },
-  {
+  /*{
     id: Math.random(),
     titre: "Trajet loisir",
-    content: "Profitez d'un chauffeur pour votre trajet loisir.",
+    content: "Réservez votre chauffeur pour toute.",
     bouton: "Réserver"
-  },
+  },*/
 ]
 
 export default services

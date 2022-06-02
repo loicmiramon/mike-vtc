@@ -50,7 +50,7 @@ function Reservation() {
       /> : null}
       <form onSubmit={handleSubmit(handleSubmitReservation)} className="form-reservation">
         <h2 className="titre-reservation">Reservez votre course des maintenant !</h2>
-        <p className="paragraphe-reservation">Toute réservation doit être prise 24 Heures à l'avance ! En cas d'absence veuillez nous le renseigner. 20% doit être payée au lancement de la course. Vous recevrez les informations par email</p>
+        <p className="paragraphe-reservation">Toute réservation doit être prise 24 heures à l'avance ! En cas d'absence veuillez le renseigner au chauffeur. Après validation de votre réservation, 20% du prix de la course vous sera demandé.</p>
         {
           notifReservation && <span className="notification-reservation">Votre reservation a bien ete prise en compte</span>
         }
@@ -111,7 +111,7 @@ function Reservation() {
           <iframe className="map-reservation" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d674384.9618229616!2d1.9422613428837587!3d48.68031781435368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e1c403a68c17%3A0x10b82c3688b2570!2s%C3%8Ele-de-France!5e0!3m2!1sfr!2sfr!4v1631444936953!5m2!1sfr!2sfr" title="map réservation"></iframe>
           </div>
         </div>
-        <button className="btn-reservation">Reserver</button>
+        <button className="btn-reservation">Réserver</button>
       </form>
     </section>
   )

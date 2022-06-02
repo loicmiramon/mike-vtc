@@ -77,10 +77,6 @@ const PopUp= (props) => {
             <td className='label-items-table-popup'>destination</td>
             <td className='items-table-popup'>{data.destination}</td>
           </tr>
-          <tr className='tr-table-popup'>
-            <td className='label-items-table-popup'>Prix de la course</td>
-            <td className='items-table-popup'>10€</td>
-          </tr>
         </tbody>
       </table>
       

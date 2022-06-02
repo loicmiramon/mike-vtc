@@ -1,16 +1,13 @@
 import React, {useState} from 'react'
 import { useForm } from 'react-hook-form';
 import logoContact from '../../assets/images/logo/logo-bfb.jpg'
-import bddContact from '../../bdd/bddContact'
 import FormAreaContact from './form/FieldAera';
 import FormChampContact from './form/Field';
 import emailjs from 'emailjs-com';
 
-const donneeContact = bddContact;
 
 function Contact() {
 
-  const [listContact] = useState(donneeContact)
   const [notifContact, setNotifContact] = useState(false)
   const {register, handleSubmit, reset} = useForm()
 
@@ -53,14 +50,6 @@ function Contact() {
           <p className="paragraphe-contact">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere alias corporis voluptates repellendus ab aliquid quam sint blanditiis ipsa animi.
           </p>
-        </div>
-        <div className="container-card-contact">
-          {listContact.map(infos => 
-          <article key={infos.id} className='card-contact'>
-            {infos.image}
-            <h2 className="titre-card-contact">{infos.titre}</h2>
-          </article>
-          )}
         </div>
       </div>
       <form onSubmit={handleSubmit(handleSubmitContact)} action="" className="form-contact">

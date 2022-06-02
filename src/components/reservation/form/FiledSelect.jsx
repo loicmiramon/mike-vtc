@@ -9,7 +9,6 @@ const FieldSelect = (props) => {
           <option value="disposition">Mise a disposition</option>
           <option value="unique">Trajet unique</option>
           <option value="aeroport">Trajet aeroport</option>
-          <option value="loisir">Trajet loisir</option>
         </select>
       </div>
   )

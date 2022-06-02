@@ -9,17 +9,17 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 const cardContact = [
   {
     id: Math.random(),
-    image: <GiPhone color="#2D3E80" size="60px" />,
+    image: <GiPhone color="#fff" size="30px" />,
     titre: "07-60-48-44-24"
   },
   {
     id: Math.random(),
-    image: <GrMail color="#2D3E80" size="60px" />,
-    titre: "email@email.fr"
+    image: <GrMail color="#fff" size="30px" />,
+    titre: "miramon.vtc@gmail.com"
   },
   {
     id: Math.random(),
-    image: <FaMapMarkerAlt color="#2D3E80" size="60px" />,
+    image: <FaMapMarkerAlt color="#fff" size="30px" />,
     titre: "Paris"
   },
 ]
