@@ -8,6 +8,14 @@
     font-family: 'consolas';
   }
 
+  .ancre-reservation-header {
+    color: #ffffff;
+  }
+
+  .ancre-reservation-header:visited {
+    color: #ffffff;
+  }
+
   .container-header,
   .container-informations-header {
     display: flex;
@@ -74,6 +82,14 @@
     font-family: 'consolas';
   }
 
+  .ancre-reservation-header {
+    color: #ffffff;
+  }
+
+  .ancre-reservation-header:visited {
+    color: #ffffff;
+  }
+
   .container-header,
   .container-informations-header {
     display: flex;
@@ -118,7 +134,7 @@
   .btn-header {
     font-family: 'Montserrat';
     position: absolute;
-    bottom: 30px;
+    bottom: 5%;
     width: 80%;
     background-color: #2D3E80;
     color: #ffffff;
@@ -139,6 +155,16 @@
   .slogan-header,
   .paragraphe-header {
     font-family: 'consolas';
+  }
+
+  .ancre-reservation-header {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+  }
+
+  .ancre-reservation-header:visited {
+    color: #ffffff;
   }
 
   .container-header,

@@ -9,19 +9,19 @@ const informationEngagement = [
   [
   {
     id: Math.random(),
-    image: <AiFillClockCircle size="100px" color="white"/>,
+    image: <AiFillClockCircle className='logo-information' size="100px"/>,
     titre: "Ponctualité",
     text: "“Rien ne sert de courir, il faut partir à point.”"
   },
   {
     id: Math.random(),
-    image: <VscSmiley color="white" size="100px" />,
+    image: <VscSmiley className='logo-information' size="100px" />,
     titre: "Convivialité",
     text: "Un chauffeur convivial pour un trajet agréable"
   },
   {
     id:Math.random(),
-    image: <FaUserTie color="white" size="100px" />,
+    image: <FaUserTie className='logo-information' size="100px" />,
     titre: "Rigueur",
     text: "La rigueur est une des choses les plus importantes"
   },
@@ -29,19 +29,19 @@ const informationEngagement = [
 [
   {
     id: Math.random(),
-    image: <ImShield color="white" size="100px" />,
+    image: <ImShield className='logo-information' size="100px" />,
     titre: "Normes conducteur",
     text: "Nous respectons les normes pour vous assurer un trajet professionnel"
   },
   {
     id: Math.random(),
-    image: <FaMapMarked color="white" size="100px" />,
+    image: <FaMapMarked className='logo-information' size="100px" />,
     titre: "Traçabilité",
     text: "Une traçabilité de chacun de vos trajets"
   },
   {
     id: Math.random(),
-    image: <RiVirusLine color="white" size="100px" />,
+    image: <RiVirusLine className='logo-information' size="100px" />,
     titre: "Covid-19",
     text: "Chaque règle est respectée pour votre sécurité"
   },

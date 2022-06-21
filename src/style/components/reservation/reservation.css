@@ -10,7 +10,7 @@
   }
 
   .section-reservation {
-    grid-area: m6;
+    grid-area: m5;
     background-color: #2D3E80;
     justify-content: center;
   }
@@ -47,7 +47,7 @@
   .notification-reservation {
     justify-content: center;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 90%;
     font-family: "licenz plates";
     color: #008000;
     border: 2px solid #008000;
@@ -105,7 +105,7 @@
   }
 
   .section-reservation {
-    grid-area: t6;
+    grid-area: t5;
     background-color: #2D3E80;
     justify-content: center;
   }
@@ -202,7 +202,7 @@
   }
 
   .section-reservation {
-    grid-area: d6;
+    grid-area: d5;
     background-color: #2D3E80;
     justify-content: center;
   }

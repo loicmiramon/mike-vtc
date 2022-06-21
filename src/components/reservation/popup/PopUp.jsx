@@ -1,5 +1,6 @@
 import React from 'react'
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'
+import axios from 'axios'
 
 const PopUp= (props) => {
 
@@ -11,25 +12,34 @@ const PopUp= (props) => {
   }
   const handleSuccess = () => {
     sendEmailReservation(data)
-    methodNotif()
+    // methodNotif()
     state(false)
   }
 
   const sendEmailReservation = (data) => {
-    console.log(data)
+    
     const dataEmailReservation = {
-      name: data.nom,
-      tel: data.telephone,
-      mail: data.email,
+      identiter: data.identiter,
+      telephone: data.telephone,
+      email: data.email,
       date: data.date,
       horaire: data.horaire,
       services: data.services,
       localisation: data.localisation,
       destination: data.destination 
     }
-    emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
-    .then(res => {
-      console.log(res)
+
+    axios.post('/reservation', {
+      ...dataEmailReservation 
+    })
+    .then(response => {
+      methodNotif()
+      emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
+      .then(res => {
+        console.log(res)
+      })
+    }).catch(err => {
+      console.log(err)
     })
   }
 
@@ -47,7 +57,7 @@ const PopUp= (props) => {
         <tbody>
           <tr className='tr-table-popup'>
             <td className='label-items-table-popup'>Nom</td>
-            <td className='items-table-popup'>{data.nom}</td>
+            <td className='items-table-popup'>{data.identiter}</td>
           </tr>
           <tr className='tr-table-popup'>
             <td className='label-items-table-popup'>Téléphone</td>

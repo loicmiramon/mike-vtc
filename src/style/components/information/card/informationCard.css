@@ -12,7 +12,7 @@
   
   .titre-card-informations,
   .paragraphe-card-informations {
-    color: white;
+    color: #ffffff;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
@@ -25,6 +25,10 @@
   .paragraphe-card-informations {
     text-align: center;
     width: 70%;
+  }
+
+  .logo-information {
+    color: #ffffff;
   }
 }
 
@@ -41,7 +45,7 @@
   
   .titre-card-informations,
   .paragraphe-card-informations {
-    color: white;
+    color: #2D3E80;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
@@ -53,6 +57,10 @@
   .paragraphe-card-informations {
     text-align: center;
     width: 70%;
+  }
+  
+  .logo-information {
+    color: #2D3E80;
   }
 }
 
@@ -73,7 +81,7 @@
 
   .titre-card-informations,
   .paragraphe-card-informations {
-    color: white;
+    color: #2D3E80;
     font-family: "Montserrat";
     padding: 10px 0px;
   }
@@ -85,6 +93,10 @@
   .paragraphe-card-informations {
     text-align: center;
     width: 50%;
+  }
+
+  .logo-information {
+    color: #2D3E80;
   }
 }
 

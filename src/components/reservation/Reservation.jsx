@@ -8,7 +8,7 @@ import PopUp from './popup/PopUp';
 function Reservation() {
 
   let dataFormReservation = {
-    nom: "",
+    identiter: "",
     telephone: "",
     email: "",
     date: "",
@@ -27,9 +27,9 @@ function Reservation() {
     const dataReservation = {
       ...data
     }
+
     setFormData(dataReservation)
     setPopUp(true)
-    
     reset()
   }
 
@@ -48,7 +48,7 @@ function Reservation() {
         data={formData}
         methodNotif={openNotifReservation}
       /> : null}
-      <form onSubmit={handleSubmit(handleSubmitReservation)} className="form-reservation">
+      <form onSubmit={handleSubmit(handleSubmitReservation)} method="POST" className="form-reservation">
         <h2 className="titre-reservation">Reservez votre course des maintenant !</h2>
         <p className="paragraphe-reservation">Toute réservation doit être prise 24 heures à l'avance ! En cas d'absence veuillez le renseigner au chauffeur. Après validation de votre réservation, 20% du prix de la course vous sera demandé.</p>
         {
@@ -58,8 +58,8 @@ function Reservation() {
           <FormChampReservation 
           register={register}
           type="text"
-          id="nom" 
-          name="nom"
+          id="identiter" 
+          name="identiter"
           placeholder="Nom">Votre nom</FormChampReservation>
           <FormChampReservation 
           register={register}

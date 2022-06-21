@@ -9,7 +9,7 @@
 
   .section-vehicule {
     position: relative;
-    grid-area: m4;
+    grid-area: m3;
     background-image: url('../../../assets/images/car.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@
 
   .section-vehicule {
     position: relative;
-    grid-area: t4;
+    grid-area: t3;
     background-image: url('../../../assets/images/car.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +193,7 @@
 
   .section-vehicule {
     position: relative;
-    grid-area: d4;
+    grid-area: d3;
     background-image: url('../../../assets/images/car.jpg');
     background-repeat: no-repeat;
     background-size: cover;

@@ -8,7 +8,7 @@ function Header() {
         <h2 className="slogan-header">Faîtes de vos déplacements un moment privilégié</h2>
         <p className="paragraphe-header">Réservez votre course dès maintenant !</p>
       </div>
-      <button className="btn-header">réserver</button>
+      <button className="btn-header"><a className='ancre-reservation-header' href="#reservation">réserver</a></button>
     </header>
   )
 }

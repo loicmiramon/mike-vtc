@@ -7,7 +7,7 @@
   }
   
   .section-informations {
-    grid-area: m3;
+    grid-area: m2;
     flex-direction: column;
     align-items: center;
     background-color: #2D3E80;
@@ -25,7 +25,7 @@
   .titre-engagement-informations,
   .titre-securiter-informations {
     margin: 20px 0px;
-    color: white;
+    color: #ffffff;
     font-family: "licenz plates";
     text-transform: uppercase;
     font-size: 1.5em;
@@ -49,10 +49,10 @@
   }
   
   .section-informations {
-    grid-area: t3;
+    grid-area: t2;
     flex-direction: column;
     align-items: center;
-    background-color: #2D3E80;
+    background-color: #ffffff;
     width: 100%;
   }
 
@@ -67,7 +67,7 @@
   .titre-engagement-informations,
   .titre-securiter-informations {
     margin: 20px 0px;
-    color: white;
+    color: #2D3E80;
     font-family: "licenz plates";
     text-transform: uppercase;
     font-size: 2em;
@@ -94,10 +94,10 @@
   }
   
   .section-informations {
-    grid-area: d3;
+    grid-area: d2;
     flex-direction: column;
     align-items: center;
-    background-color: #2D3E80;
+    background-color: #ffffff;
     width: 100%;
   }
 
@@ -112,7 +112,7 @@
   .titre-engagement-informations,
   .titre-securiter-informations {
     margin: 20px 0px;
-    color: white;
+    color: #2D3E80;
     font-family: "licenz plates";
     text-transform: uppercase;
     font-size: 2em;

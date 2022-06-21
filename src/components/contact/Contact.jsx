@@ -4,6 +4,7 @@ import logoContact from '../../assets/images/logo/logo-bfb.jpg'
 import FormAreaContact from './form/FieldAera';
 import FormChampContact from './form/Field';
 import emailjs from 'emailjs-com';
+import axios from 'axios'
 
 
 function Contact() {
@@ -16,7 +17,7 @@ function Contact() {
       ...data
     }
     sendEmailContact(contactData)
-    openNotifContact()
+    //openNotifContact()
     reset()
   }
 
@@ -30,14 +31,24 @@ function Contact() {
   const sendEmailContact = (data) => {
     const dataEmailContact = {
       name: data.nom,
-      tel: data.telephone,
-      mail: data.email,
+      telephone: data.telephone,
+      email: data.email,
       message: data.message 
     }
-    emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
-    .then(res => {
-      console.log(res)
+    
+    axios.post('/contact', {
+      ...dataEmailContact
     })
+    .then(response => {
+      openNotifContact()
+      emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
+      .then(res => {
+        console.log(res)
+      })
+    })
+    .catch(error => {
+      console.log(error)
+    }) 
   }
 
   return (
@@ -48,11 +59,11 @@ function Contact() {
           <h2 className="titre-contact">Une question ?</h2>
           <h3 className="sous-titre-contact">Contactez votre chauffeur</h3>
           <p className="paragraphe-contact">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere alias corporis voluptates repellendus ab aliquid quam sint blanditiis ipsa animi.
+            Pour toute demande ou renseignement, n'hésitez pas à nous contacter nous vous répondrons dans les plus bref délais.
           </p>
         </div>
       </div>
-      <form onSubmit={handleSubmit(handleSubmitContact)} action="" className="form-contact">
+      <form onSubmit={handleSubmit(handleSubmitContact)} action="" method='POST' className="form-contact">
         {
           notifContact && <span className="notification-contact">Votre message a bien ete envoye</span>
         }

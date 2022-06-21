@@ -8,7 +8,7 @@
   }
 
   .footerMikeVtc {
-    grid-area: m8;
+    grid-area: m7;
     background-color: #2D3E80;
     justify-content: center;
     flex-direction: column;
@@ -76,7 +76,7 @@
   }
 
   .footerMikeVtc {
-    grid-area: t8;
+    grid-area: t7;
     background-color: #2D3E80;
     justify-content: center;
     flex-direction: column;
@@ -141,7 +141,7 @@
   }
 
   .footerMikeVtc {
-    grid-area: d8;
+    grid-area: d7;
     background-color: #2D3E80;
     justify-content: center;
     flex-direction: column;
@@ -158,7 +158,7 @@
 
   .container-card-footer {
     justify-content: space-evenly;
-    width: 100%;
+    width: 35%;
   }
 
   .card-footer {
@@ -172,7 +172,7 @@
     margin-top: 15px;
     color: #ffffff;
     font-family: "Montserrat";
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .logo-footer {
@@ -183,6 +183,7 @@
     color: #ffffff;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     position: absolute;
     bottom: 5%;
   }

@@ -2,7 +2,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh repeat(6, 1fr) 60vh;
+    grid-template-rows: 100vh repeat(5, 1fr) 60vh;
     grid-template-areas: 
     "m1"
     "m2"
@@ -11,7 +11,6 @@
     "m5"
     "m6"
     "m7"
-    "m8"
     ;
   }
 }
@@ -20,7 +19,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh repeat(6, 1fr) 45vh;
+    grid-template-rows: 100vh repeat(5, 1fr) 45vh;
     grid-template-areas: 
     "t1"
     "t2"
@@ -29,7 +28,6 @@
     "t5"
     "t6"
     "t7"
-    "t8"
     ;
   }
 }
@@ -38,7 +36,7 @@
   .accueil-mike-vtc {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 100vh repeat(6, auto) 40%;
+    grid-template-rows: 100vh repeat(5, auto) 40%;
     grid-template-areas: 
     "d1 d1 d1 d1"
     "d2 d2 d2 d2"
@@ -47,7 +45,6 @@
     "d5 d5 d5 d5"
     "d6 d6 d6 d6"
     "d7 d7 d7 d7"
-    "d8 d8 d8 d8"
     ;
   }
 }
