@@ -17,7 +17,7 @@ function Contact() {
       ...data
     }
     sendEmailContact(contactData)
-    //openNotifContact()
+    openNotifContact()
     reset()
   }
 
@@ -35,27 +35,33 @@ function Contact() {
       email: data.email,
       message: data.message 
     }
+
+
+    emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
+    .then(res => {
+      console.log(res)
+    })
     
-    axios.post('/contact', {
-      ...dataEmailContact
-    })
-    .then(response => {
-      openNotifContact()
-      emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
-      .then(res => {
-        console.log(res)
-      })
-    })
-    .catch(error => {
-      console.log(error)
-    }) 
+    //  axios.post('/contact', {
+    //    ...dataEmailContact
+    //  })
+    //  .then(response => {
+    //     openNotifContact()
+    //     emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
+    //     .then(res => {
+    //       console.log(res)
+    //     })
+    //  })
+    //  .catch(error => {
+    //    console.log(error)
+    //  }) 
   }
 
   return (
     <section id="contact" className="section-contact">
       <div className="container-information-contact">
         <div className="sous-container-contact">
-          <img className="logo-contact" src={logoContact} alt="" />
+          <img className="logo-contact" src={logoContact} alt="Logo Contact" />
           <h2 className="titre-contact">Une question ?</h2>
           <h3 className="sous-titre-contact">Contactez votre chauffeur</h3>
           <p className="paragraphe-contact">
