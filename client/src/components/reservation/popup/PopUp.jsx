@@ -29,13 +29,12 @@ const PopUp= (props) => {
       destination: data.destination 
     }
 
-    emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
+    /*emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
       .then(res => {
         console.log(res)
-    })
+    })*/
 
     
-
     axios.post('/reservation', {
       ...dataEmailReservation 
     })
