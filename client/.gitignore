@@ -23,6 +23,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+./build
+
 
 # Back End Mike VTC
 server/mikevtcback/node_modules

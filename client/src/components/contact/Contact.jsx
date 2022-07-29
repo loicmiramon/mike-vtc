@@ -42,19 +42,19 @@ function Contact() {
       console.log(res)
     })
     
-    //  axios.post('/contact', {
-    //    ...dataEmailContact
-    //  })
-    //  .then(response => {
-    //     openNotifContact()
-    //     emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
-    //     .then(res => {
-    //       console.log(res)
-    //     })
-    //  })
-    //  .catch(error => {
-    //    console.log(error)
-    //  }) 
+    axios.post('/contact', {
+      ...dataEmailContact
+    })
+    .then(response => {
+       openNotifContact()
+       emailjs.send('service_pyym7qb', 'template_880g02v', dataEmailContact, 'yiFq_oFCF1P0mTCtB')
+       .then(res => {
+         console.log(res)
+       })
+    })
+    .catch(error => {
+      console.log(error)
+    }) 
   }
 
   return (
