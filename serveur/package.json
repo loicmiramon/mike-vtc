@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server",
-    "watch": "cd client && npm start",
-    "install-client" : "cd client && npm install ",
+    "watch": "cd ../client && npm start",
+    "install-client" : "cd ../client && npm install ",
     "heroku-postbuild" : "npm run install-client && npm run build",
-    "build": "cd client && npm run build"
+    "build": "cd ../client && npm run build"
   },
   "engines": {
     "node": "16.x"
