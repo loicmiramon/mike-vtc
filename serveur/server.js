@@ -16,7 +16,7 @@ app.use(cors())
 app.use('/', routing)
 
 app.get('/', (req, res) => {
-  res.render('../client/build/index.html')
+  res.sendFile(path.join(__dirname,'../client/build/index.html'))
 })
 
 app.listen(process.env.PORT, () => {
