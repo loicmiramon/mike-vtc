@@ -28,7 +28,7 @@ function Contact() {
     }, 7500)
   }
 
-  const sendEmailContact = (data) => {
+  const sendEmailContact = async (data) => {
     const dataEmailContact = {
       name: data.nom,
       telephone: data.telephone,
@@ -43,7 +43,7 @@ function Contact() {
     })
     
     
-    axios.post('/contact', {
+    await axios.post('https://mikevtc.netlify.app/', {
       ...dataEmailContact
     })
     .then(response => {

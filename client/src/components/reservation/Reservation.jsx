@@ -15,7 +15,7 @@ function Reservation() {
     horaire: "",
     services: "",
     localisation: "",
-    destrination: ""
+    destination: ""
   }
 
   const [popUp, setPopUp] = useState(false)

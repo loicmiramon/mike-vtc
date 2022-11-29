@@ -16,7 +16,7 @@ const PopUp= (props) => {
     state(false)
   }
 
-  const sendEmailReservation = (data) => {
+  const sendEmailReservation = async (data) => {
     
     const dataEmailReservation = {
       identiter: data.identiter,
@@ -34,20 +34,20 @@ const PopUp= (props) => {
         console.log(res)
     })
 
-    /*
-    axios.post('/reservation', {
+    
+    await axios.post('https://mikevtc.netlify.app/', {
       ...dataEmailReservation 
     })
     .then(response => {
      methodNotif()
-     emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
+     /*emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
      .then(res => {
        console.log(res)
-     })
+     })*/
     }).catch(err => {
       console.log(err)
     })
-    */
+    
   }
 
   return (
