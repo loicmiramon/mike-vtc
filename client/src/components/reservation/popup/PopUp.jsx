@@ -19,14 +19,14 @@ const PopUp= (props) => {
   const sendEmailReservation = async (data) => {
     
     const dataEmailReservation = {
-      identiter: data.identiter,
-      telephone: data.telephone,
-      email: data.email,
-      date: data.date,
-      horaire: data.horaire,
-      services: data.services,
-      localisation: data.localisation,
-      destination: data.destination 
+      name: data.reservation_name,
+      phone: data.reservation_phone,
+      mail: data.reservation_mail,
+      date: data.reservation_date,
+      hourly: data.reservation_hourly,
+      service: data.reservation_service,
+      adress_location: data.reservation_adress_location,
+      adress_destination: data.reservation_adress_destination 
     }
 
     emailjs.send('service_pyym7qb', 'template_hs5zfxx', dataEmailReservation, 'yiFq_oFCF1P0mTCtB')
@@ -35,7 +35,7 @@ const PopUp= (props) => {
     })
 
     
-    await axios.post('https://mikevtc.netlify.app/', {
+    await axios.post('https://mikevtc.netlify.app/reservation', {
       ...dataEmailReservation 
     })
     .then(response => {

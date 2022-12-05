@@ -8,14 +8,14 @@ import PopUp from './popup/PopUp';
 function Reservation() {
 
   let dataFormReservation = {
-    identiter: "",
-    telephone: "",
-    email: "",
+    name: "",
+    phone: "",
+    mail: "",
     date: "",
-    horaire: "",
-    services: "",
-    localisation: "",
-    destination: ""
+    hourly: "",
+    service: "",
+    adress_d: "",
+    adress_a: ""
   }
 
   const [popUp, setPopUp] = useState(false)
@@ -58,33 +58,33 @@ function Reservation() {
           <FormChampReservation 
           register={register}
           type="text"
-          id="identiter" 
-          name="identiter"
+          id="reservation_name" 
+          name="reservation_name"
           placeholder="Nom">Votre nom</FormChampReservation>
           <FormChampReservation 
           register={register}
           type="text" 
-          name="telephone"
-          id="telephone" 
+          name="reservation_phone"
+          id="reservation_phone" 
           placeholder="Téléphone">Votre numéro de téléphone</FormChampReservation>
           <FormChampReservation
           register={register}
           type="email" 
-          name="email"
-          id="email" 
+          name="reservation_mail"
+          id="reservation_mail" 
           placeholder="Email">Votre email</FormChampReservation>
           <div className="sous-container-formulaire-reservation-2">
           <FormChampReservation
           register={register}
           type="date" 
-          name="date"
-          id="date" 
+          name="reservation_date"
+          id="reservation_date" 
           >Date de départ</FormChampReservation>
           <FormChampReservation
           register={register}
           type="time" 
-          name="horaire"
-          id="horaire" 
+          name="reservation_hourly"
+          id="reservation_houly" 
           >Horaire de départ</FormChampReservation>
           </div>
         </div>
@@ -92,19 +92,19 @@ function Reservation() {
           <div className="sous-container-formulaire-reservation">
             <FormSelectReservation 
             register={register}
-            name="services"
-            id="services">Type de service</FormSelectReservation>
+            name="reservation_service"
+            id="reservation_service">Type de service</FormSelectReservation>
             <FormChampReservation 
             register={register}
             type="text" 
-            name="localisation"
-            id="localisation" 
+            name="reservation_adress_location"
+            id="reservation_adress_location" 
             placeholder="Localication">Votre localisation</FormChampReservation>
             <FormChampReservation
             register={register}
             type="text" 
-            name="destination"
-            id="destination" 
+            name="reservation_adress_destination"
+            id="reservation_adress_destination" 
             placeholder="Destination">Votre destination</FormChampReservation>
           </div>
           <div className="container-map-reservation">
